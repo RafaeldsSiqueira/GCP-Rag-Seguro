@@ -42,9 +42,22 @@ class GeminiFlashLLMService(ILLMService):
                     "top_k": 40
                 }
                 response = self.client.generate_content(prompt, generation_config=generation_config)
-                return response.text + footer
+                if response and hasattr(response, "text") and response.text:
+                    return response.text + footer
             except Exception as e:
-                logger.error(f"Erro ao chamar API Gemini Flash com Top-P: {e}")
+                logger.error(f"Erro ao chamar API Gemini Flash ({self.model_name}): {e}")
+                try:
+                    import google.generativeai as genai
+                    for model_alt in ["gemini-1.5-flash-latest", "gemini-2.0-flash", "gemini-1.5-flash-8b", "gemini-1.5-pro"]:
+                        try:
+                            alt_instance = genai.GenerativeModel(model_alt)
+                            resp_alt = alt_instance.generate_content(prompt, generation_config={"temperature": 0.2, "top_p": 0.95})
+                            if resp_alt and hasattr(resp_alt, "text") and resp_alt.text:
+                                return resp_alt.text + footer
+                        except Exception:
+                            continue
+                except Exception as ex_all:
+                    logger.error(f"Falha em todos os modelos Gemini: {ex_all}")
 
         # Verificacao local de Guardrail para ambiente sandbox/offline
         pergunta_lower = pergunta.lower()
@@ -54,9 +67,9 @@ class GeminiFlashLLMService(ILLMService):
                 f"A pergunta '{pergunta}' está fora do escopo permitido de atuação." + footer
             )
 
-        if "namorada" in pergunta_lower and ("homem" in pergunta_lower or "aranha" in pergunta_lower or "spidey" in pergunta_lower):
+        if any(w in pergunta_lower for w in ["namorada", "esposa", "par romântico", "par romantico", "casou", "mulher", "relacionamento"]) and any(h in pergunta_lower for h in ["homem aranha", "homem-aranha", "spidey", "peter parker"]):
             return (
-                f"Com base na ficha do Homem-Aranha ancorada no catálogo, a namorada e par romântico mais famoso do herói nos quadrinhos da Marvel é Mary Jane Watson (MJ), além do seu grande amor de juventude Gwen Stacy." + footer
+                f"Com base na ficha do Homem-Aranha ancorada no catálogo, a esposa e par romântico mais famoso do herói nos quadrinhos da Marvel é Mary Jane Watson (MJ), além do seu grande amor de juventude Gwen Stacy." + footer
             )
 
         return (

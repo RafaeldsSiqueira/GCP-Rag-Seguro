@@ -59,8 +59,13 @@ try:
     gemini_api_key = os.getenv("GEMINI_API_KEY")
     if gemini_api_key:
         genai.configure(api_key=gemini_api_key)
-        gemini_model = genai.GenerativeModel("gemini-1.5-flash")
-        logger.info("✅ Gemini 1.5 Flash Client conectado com sucesso.")
+        for model_candidate in ["gemini-1.5-flash-latest", "gemini-1.5-flash", "gemini-2.0-flash", "gemini-1.5-pro"]:
+            try:
+                gemini_model = genai.GenerativeModel(model_candidate)
+                logger.info(f"✅ Gemini Client conectado com sucesso utilizando o modelo '{model_candidate}'.")
+                break
+            except Exception as ex_m:
+                logger.warning(f"Candidato {model_candidate} nao suportado: {ex_m}")
 except Exception as e:
     logger.warning(f"⚠️ Usando fallback local para o Gemini: {e}")
 
