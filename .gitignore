@@ -1,0 +1,32 @@
+# Python Virtual Environment & Caches
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Sensitive Data, API Keys & Credentials
+.env
+.env.*
+*.json
+!agent_workspace/harness/datasets/hero_dataset_mock.json
+*.pem
+*.key
+*.crt
+
+# Terraform State & Binaries (Protect Secrets & Infrastructure States)
+terraform/.terraform/
+terraform/*.tfstate
+terraform/*.tfstate.*
+terraform/.terraform.lock.hcl
+
+# IDE & Editor Configs
+.vscode/
+.idea/
+
+# Local Temporary Files
+.sandbox/

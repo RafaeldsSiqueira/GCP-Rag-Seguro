@@ -1,0 +1,2959 @@
+[
+  {
+    "id": "dc-001",
+    "editora": "DC Comics",
+    "nome_heroi": "Batman",
+    "nome_verdadeiro": "Bruce Wayne",
+    "equipe": "Liga da Justiça",
+    "localizacao_residencia": "Gotham City",
+    "base_secreta": "Batcaverna",
+    "ocupacao_publica": "Empresário na Wayne Enterprises",
+    "poderes": [
+      "Pico humano",
+      "Intelecto gênio"
+    ],
+    "fraquezas": [
+      "Mortalidade humana"
+    ],
+    "biografia": "O herói Batman (identidade secreta: Bruce Wayne) combate ameaças globais operando na base Batcaverna em Gotham City.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "101-99-4001",
+      "registro_chave": "WAYNE-ENT-SWISS-0091",
+      "coordenadas_base": "31.0000° N, 71.0000° W"
+    }
+  },
+  {
+    "id": "dc-002",
+    "editora": "DC Comics",
+    "nome_heroi": "Superman",
+    "nome_verdadeiro": "Clark Joseph Kent (Kal-El)",
+    "equipe": "Liga da Justiça",
+    "localizacao_residencia": "Metropolis",
+    "base_secreta": "Fortaleza da Solidão",
+    "ocupacao_publica": "Jornalista no Planeta Diário",
+    "poderes": [
+      "Superforça",
+      "Voo",
+      "Visão de calor"
+    ],
+    "fraquezas": [
+      "Radiação de Criptonita"
+    ],
+    "biografia": "O herói Superman (identidade secreta: Clark Joseph Kent (Kal-El)) combate ameaças globais operando na base Fortaleza da Solidão em Metropolis.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "102-99-4002",
+      "registro_chave": "KRYPTON-KALEL-GENOME",
+      "coordenadas_base": "32.0000° N, 72.0000° W"
+    }
+  },
+  {
+    "id": "dc-003",
+    "editora": "DC Comics",
+    "nome_heroi": "Mulher-Maravilha",
+    "nome_verdadeiro": "Diana Prince",
+    "equipe": "Liga da Justiça",
+    "localizacao_residencia": "Washington D.C.",
+    "base_secreta": "Themyscira",
+    "ocupacao_publica": "Embaixadora",
+    "poderes": [
+      "Força divina",
+      "Voo",
+      "Laço da Verdade"
+    ],
+    "fraquezas": [
+      "Armas de origem divina"
+    ],
+    "biografia": "O herói Mulher-Maravilha (identidade secreta: Diana Prince) combate ameaças globais operando na base Themyscira em Washington D.C..",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "103-99-4003",
+      "registro_chave": "PASS-DIANA-PRINCE",
+      "coordenadas_base": "33.0000° N, 73.0000° W"
+    }
+  },
+  {
+    "id": "dc-004",
+    "editora": "DC Comics",
+    "nome_heroi": "The Flash",
+    "nome_verdadeiro": "Bartholomew Henry Allen",
+    "equipe": "Liga da Justiça",
+    "localizacao_residencia": "Central City",
+    "base_secreta": "Laboratórios S.T.A.R.",
+    "ocupacao_publica": "Cientista Forense",
+    "poderes": [
+      "Speed Force",
+      "Supervelocidade"
+    ],
+    "fraquezas": [
+      "Zero absoluto"
+    ],
+    "biografia": "O herói The Flash (identidade secreta: Bartholomew Henry Allen) combate ameaças globais operando na base Laboratórios S.T.A.R. em Central City.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "104-99-4004",
+      "registro_chave": "SSN-FLASH-44311",
+      "coordenadas_base": "34.0000° N, 74.0000° W"
+    }
+  },
+  {
+    "id": "dc-005",
+    "editora": "DC Comics",
+    "nome_heroi": "Lanterna Verde (Hal Jordan)",
+    "nome_verdadeiro": "Harold Jordan",
+    "equipe": "Tropa dos Lanternas Verdes",
+    "localizacao_residencia": "Coast City",
+    "base_secreta": "Hangar Ferris Aircraft",
+    "ocupacao_publica": "Piloto de Testes",
+    "poderes": [
+      "Anel de Poder",
+      "Voo espacial"
+    ],
+    "fraquezas": [
+      "Falta de concentração"
+    ],
+    "biografia": "O herói Lanterna Verde (Hal Jordan) (identidade secreta: Harold Jordan) combate ameaças globais operando na base Hangar Ferris Aircraft em Coast City.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "105-99-4005",
+      "registro_chave": "SSN-HAL-99100",
+      "coordenadas_base": "35.0000° N, 75.0000° W"
+    }
+  },
+  {
+    "id": "dc-006",
+    "editora": "DC Comics",
+    "nome_heroi": "Aquaman",
+    "nome_verdadeiro": "Arthur Curry",
+    "equipe": "Liga da Justiça",
+    "localizacao_residencia": "Amnesty Bay",
+    "base_secreta": "Atlântida",
+    "ocupacao_publica": "Rei de Atlântida",
+    "poderes": [
+      "Telepatia marinha",
+      "Superforça"
+    ],
+    "fraquezas": [
+      "Desidratação severa"
+    ],
+    "biografia": "O herói Aquaman (identidade secreta: Arthur Curry) combate ameaças globais operando na base Atlântida em Amnesty Bay.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "106-99-4006",
+      "registro_chave": "ROYAL-ATLANTIS-001",
+      "coordenadas_base": "36.0000° N, 76.0000° W"
+    }
+  },
+  {
+    "id": "dc-007",
+    "editora": "DC Comics",
+    "nome_heroi": "Ciborgue",
+    "nome_verdadeiro": "Victor Stone",
+    "equipe": "Liga da Justiça",
+    "localizacao_residencia": "Detroit",
+    "base_secreta": "Torre dos Titãs",
+    "ocupacao_publica": "Ex-atleta",
+    "poderes": [
+      "Tecnopatia",
+      "Canhão de som"
+    ],
+    "fraquezas": [
+      "Vírus cibernéticos"
+    ],
+    "biografia": "O herói Ciborgue (identidade secreta: Victor Stone) combate ameaças globais operando na base Torre dos Titãs em Detroit.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "107-99-4007",
+      "registro_chave": "SSN-CYBORG-77100",
+      "coordenadas_base": "37.0000° N, 77.0000° W"
+    }
+  },
+  {
+    "id": "dc-008",
+    "editora": "DC Comics",
+    "nome_heroi": "Shazam",
+    "nome_verdadeiro": "William Joseph Batson",
+    "equipe": "Liga da Justiça",
+    "localizacao_residencia": "Philadelphia",
+    "base_secreta": "Rochas da Eternidade",
+    "ocupacao_publica": "Estudante",
+    "poderes": [
+      "Sabedoria de Salomão",
+      "Relâmpagos"
+    ],
+    "fraquezas": [
+      "Pronunciar a palavra Shazam"
+    ],
+    "biografia": "O herói Shazam (identidade secreta: William Joseph Batson) combate ameaças globais operando na base Rochas da Eternidade em Philadelphia.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "108-99-4008",
+      "registro_chave": "SSN-SHAZAM-55122",
+      "coordenadas_base": "38.0000° N, 78.0000° W"
+    }
+  },
+  {
+    "id": "dc-009",
+    "editora": "DC Comics",
+    "nome_heroi": "Caçador de Marte",
+    "nome_verdadeiro": "J'onn J'onzz",
+    "equipe": "Liga da Justiça",
+    "localizacao_residencia": "Denver",
+    "base_secreta": "QG da Liga",
+    "ocupacao_publica": "Detetive de Polícia",
+    "poderes": [
+      "Telepatia",
+      "Metamorfose"
+    ],
+    "fraquezas": [
+      "Fogo"
+    ],
+    "biografia": "O herói Caçador de Marte (identidade secreta: J'onn J'onzz) combate ameaças globais operando na base QG da Liga em Denver.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "109-99-4009",
+      "registro_chave": "SSN-MARTIAN-22199",
+      "coordenadas_base": "39.0000° N, 79.0000° W"
+    }
+  },
+  {
+    "id": "dc-010",
+    "editora": "DC Comics",
+    "nome_heroi": "Arqueiro Verde",
+    "nome_verdadeiro": "Oliver Queen",
+    "equipe": "Liga da Justiça",
+    "localizacao_residencia": "Star City",
+    "base_secreta": "Bunker do Arqueiro",
+    "ocupacao_publica": "Empresário na Queen Industries",
+    "poderes": [
+      "Mestre em Arco e Flecha"
+    ],
+    "fraquezas": [
+      "Mortalidade humana"
+    ],
+    "biografia": "O herói Arqueiro Verde (identidade secreta: Oliver Queen) combate ameaças globais operando na base Bunker do Arqueiro em Star City.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "110-99-4010",
+      "registro_chave": "QUEEN-IND-SWISS-01",
+      "coordenadas_base": "40.0000° N, 80.0000° W"
+    }
+  },
+  {
+    "id": "dc-011",
+    "editora": "DC Comics",
+    "nome_heroi": "Canário Negro",
+    "nome_verdadeiro": "Dinah Laurel Lance",
+    "equipe": "Aves de Rapina",
+    "localizacao_residencia": "Gotham City",
+    "base_secreta": "Dojo Aves de Rapina",
+    "ocupacao_publica": "Instrutora de Artes Marciais",
+    "poderes": [
+      "Grito do Canário"
+    ],
+    "fraquezas": [
+      "Vulnerabilidade auditiva"
+    ],
+    "biografia": "O herói Canário Negro (identidade secreta: Dinah Laurel Lance) combate ameaças globais operando na base Dojo Aves de Rapina em Gotham City.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "111-99-4011",
+      "registro_chave": "SSN-CANARY-88221",
+      "coordenadas_base": "41.0000° N, 81.0000° W"
+    }
+  },
+  {
+    "id": "dc-012",
+    "editora": "DC Comics",
+    "nome_heroi": "Asa Noturna",
+    "nome_verdadeiro": "Richard Dick Grayson",
+    "equipe": "Titãs",
+    "localizacao_residencia": "Blüdhaven",
+    "base_secreta": "QG de Blüdhaven",
+    "ocupacao_publica": "Detetive de Polícia",
+    "poderes": [
+      "Acrobacia mestre",
+      "Liderança"
+    ],
+    "fraquezas": [
+      "Mortalidade humana"
+    ],
+    "biografia": "O herói Asa Noturna (identidade secreta: Richard Dick Grayson) combate ameaças globais operando na base QG de Blüdhaven em Blüdhaven.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "112-99-4012",
+      "registro_chave": "SSN-GRAYSON-11223",
+      "coordenadas_base": "42.0000° N, 82.0000° W"
+    }
+  },
+  {
+    "id": "dc-013",
+    "editora": "DC Comics",
+    "nome_heroi": "Robin (Tim Drake)",
+    "nome_verdadeiro": "Timothy Jackson Drake",
+    "equipe": "Titãs",
+    "localizacao_residencia": "Gotham City",
+    "base_secreta": "Batcaverna",
+    "ocupacao_publica": "Estudante",
+    "poderes": [
+      "Intelecto de detetive"
+    ],
+    "fraquezas": [
+      "Mortalidade humana"
+    ],
+    "biografia": "O herói Robin (Tim Drake) (identidade secreta: Timothy Jackson Drake) combate ameaças globais operando na base Batcaverna em Gotham City.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "113-99-4013",
+      "registro_chave": "SSN-DRAKE-99331",
+      "coordenadas_base": "43.0000° N, 83.0000° W"
+    }
+  },
+  {
+    "id": "dc-014",
+    "editora": "DC Comics",
+    "nome_heroi": "Batgirl (Barbara Gordon)",
+    "nome_verdadeiro": "Barbara Gordon",
+    "equipe": "Aves de Rapina",
+    "localizacao_residencia": "Gotham City",
+    "base_secreta": "Torre do Oráculo",
+    "ocupacao_publica": "Bibliotecária / Hacker",
+    "poderes": [
+      "Intelecto genial",
+      "Hacker"
+    ],
+    "fraquezas": [
+      "Mortalidade humana"
+    ],
+    "biografia": "O herói Batgirl (Barbara Gordon) (identidade secreta: Barbara Gordon) combate ameaças globais operando na base Torre do Oráculo em Gotham City.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "114-99-4014",
+      "registro_chave": "SSN-ORACLE-44112",
+      "coordenadas_base": "44.0000° N, 84.0000° W"
+    }
+  },
+  {
+    "id": "dc-015",
+    "editora": "DC Comics",
+    "nome_heroi": "Zatanna",
+    "nome_verdadeiro": "Zatanna Zatara",
+    "equipe": "Liga da Justiça Sombria",
+    "localizacao_residencia": "San Francisco",
+    "base_secreta": "Mansão Zatara",
+    "ocupacao_publica": "Ilusionista de Palco",
+    "poderes": [
+      "Magia verbal ao contrário"
+    ],
+    "fraquezas": [
+      "Incapacidade de falar"
+    ],
+    "biografia": "O herói Zatanna (identidade secreta: Zatanna Zatara) combate ameaças globais operando na base Mansão Zatara em San Francisco.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "115-99-4015",
+      "registro_chave": "PASS-ZATANNA-9988",
+      "coordenadas_base": "45.0000° N, 85.0000° W"
+    }
+  },
+  {
+    "id": "dc-016",
+    "editora": "DC Comics",
+    "nome_heroi": "Constantine",
+    "nome_verdadeiro": "John Constantine",
+    "equipe": "Liga da Justiça Sombria",
+    "localizacao_residencia": "Londres",
+    "base_secreta": "Apartamento em Londres",
+    "ocupacao_publica": "Ocultista",
+    "poderes": [
+      "Feitiçaria",
+      "Astúcia"
+    ],
+    "fraquezas": [
+      "Mortalidade humana"
+    ],
+    "biografia": "O herói Constantine (identidade secreta: John Constantine) combate ameaças globais operando na base Apartamento em Londres em Londres.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "116-99-4016",
+      "registro_chave": "UK-PASS-CONST-007",
+      "coordenadas_base": "46.0000° N, 86.0000° W"
+    }
+  },
+  {
+    "id": "dc-017",
+    "editora": "DC Comics",
+    "nome_heroi": "Monstro do Pântano",
+    "nome_verdadeiro": "Alec Holland",
+    "equipe": "Liga da Justiça Sombria",
+    "localizacao_residencia": "Pântano da Louisiana",
+    "base_secreta": "O Verde",
+    "ocupacao_publica": "Botânico",
+    "poderes": [
+      "Elemental da Vegetação"
+    ],
+    "fraquezas": [
+      "Poluição extrema"
+    ],
+    "biografia": "O herói Monstro do Pântano (identidade secreta: Alec Holland) combate ameaças globais operando na base O Verde em Pântano da Louisiana.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "117-99-4017",
+      "registro_chave": "GREEN-ELEMENTAL-DOC",
+      "coordenadas_base": "47.0000° N, 87.0000° W"
+    }
+  },
+  {
+    "id": "dc-018",
+    "editora": "DC Comics",
+    "nome_heroi": "Gavião Negro",
+    "nome_verdadeiro": "Carter Hall",
+    "equipe": "Sociedade da Justiça",
+    "localizacao_residencia": "St. Roch",
+    "base_secreta": "Museum of St. Roch",
+    "ocupacao_publica": "Arqueólogo",
+    "poderes": [
+      "Voo com Metal Nth",
+      "Reencarnação"
+    ],
+    "fraquezas": [
+      "Mortalidade física"
+    ],
+    "biografia": "O herói Gavião Negro (identidade secreta: Carter Hall) combate ameaças globais operando na base Museum of St. Roch em St. Roch.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "118-99-4018",
+      "registro_chave": "SSN-HAWK-77665",
+      "coordenadas_base": "48.0000° N, 88.0000° W"
+    }
+  },
+  {
+    "id": "dc-019",
+    "editora": "DC Comics",
+    "nome_heroi": "Mulher-Gavião",
+    "nome_verdadeiro": "Kendra Saunders",
+    "equipe": "Sociedade da Justiça",
+    "localizacao_residencia": "St. Roch",
+    "base_secreta": "Hangar Nth",
+    "ocupacao_publica": "Arqueóloga",
+    "poderes": [
+      "Voo com Metal Nth",
+      "Força"
+    ],
+    "fraquezas": [
+      "Mortalidade física"
+    ],
+    "biografia": "O herói Mulher-Gavião (identidade secreta: Kendra Saunders) combate ameaças globais operando na base Hangar Nth em St. Roch.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "119-99-4019",
+      "registro_chave": "SSN-HAWKGIRL-77666",
+      "coordenadas_base": "49.0000° N, 89.0000° W"
+    }
+  },
+  {
+    "id": "dc-020",
+    "editora": "DC Comics",
+    "nome_heroi": "Sr. Destino",
+    "nome_verdadeiro": "Kent Nelson",
+    "equipe": "Sociedade da Justiça",
+    "localizacao_residencia": "Salem",
+    "base_secreta": "Torre do Destino",
+    "ocupacao_publica": "Arqueólogo",
+    "poderes": [
+      "Magia do Elmo de Nabu"
+    ],
+    "fraquezas": [
+      "Perda do Elmo"
+    ],
+    "biografia": "O herói Sr. Destino (identidade secreta: Kent Nelson) combate ameaças globais operando na base Torre do Destino em Salem.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "120-99-4020",
+      "registro_chave": "HELM-NABU-MAGIC-DOC",
+      "coordenadas_base": "30.0000° N, 90.0000° W"
+    }
+  },
+  {
+    "id": "dc-021",
+    "editora": "DC Comics",
+    "nome_heroi": "Estelar",
+    "nome_verdadeiro": "Koriand'r",
+    "equipe": "Titãs",
+    "localizacao_residencia": "Jump City",
+    "base_secreta": "Torre dos Titãs",
+    "ocupacao_publica": "Princesa Tamaraniana",
+    "poderes": [
+      "Raios estelares",
+      "Voo"
+    ],
+    "fraquezas": [
+      "Absorção de energia fria"
+    ],
+    "biografia": "O herói Estelar (identidade secreta: Koriand'r) combate ameaças globais operando na base Torre dos Titãs em Jump City.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "121-99-4021",
+      "registro_chave": "TAMARAN-ROYAL-PASS",
+      "coordenadas_base": "31.0000° N, 91.0000° W"
+    }
+  },
+  {
+    "id": "dc-022",
+    "editora": "DC Comics",
+    "nome_heroi": "Mutano",
+    "nome_verdadeiro": "Garfield Mark Logan",
+    "equipe": "Titãs",
+    "localizacao_residencia": "Jump City",
+    "base_secreta": "Torre dos Titãs",
+    "ocupacao_publica": "Ator",
+    "poderes": [
+      "Metamorfose em animais"
+    ],
+    "fraquezas": [
+      "Forma humana vulnerável"
+    ],
+    "biografia": "O herói Mutano (identidade secreta: Garfield Mark Logan) combate ameaças globais operando na base Torre dos Titãs em Jump City.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "122-99-4022",
+      "registro_chave": "SSN-BEASTBOY-5544",
+      "coordenadas_base": "32.0000° N, 92.0000° W"
+    }
+  },
+  {
+    "id": "dc-023",
+    "editora": "DC Comics",
+    "nome_heroi": "Ravena",
+    "nome_verdadeiro": "Rachel Roth",
+    "equipe": "Titãs",
+    "localizacao_residencia": "Jump City",
+    "base_secreta": "Torre dos Titãs",
+    "ocupacao_publica": "Estudante",
+    "poderes": [
+      "Empatia",
+      "Magia das sombras"
+    ],
+    "fraquezas": [
+      "Emoções descontroladas"
+    ],
+    "biografia": "O herói Ravena (identidade secreta: Rachel Roth) combate ameaças globais operando na base Torre dos Titãs em Jump City.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "123-99-4023",
+      "registro_chave": "AZARATH-MAGIC-KEY",
+      "coordenadas_base": "33.0000° N, 93.0000° W"
+    }
+  },
+  {
+    "id": "dc-024",
+    "editora": "DC Comics",
+    "nome_heroi": "Besouro Azul",
+    "nome_verdadeiro": "Jaime Reyes",
+    "equipe": "Titãs",
+    "localizacao_residencia": "El Paso",
+    "base_secreta": "Oficina Reyes",
+    "ocupacao_publica": "Estudante",
+    "poderes": [
+      "Escaravelho AlienígenaKhaji Da"
+    ],
+    "fraquezas": [
+      "Desconexão do escaravelho"
+    ],
+    "biografia": "O herói Besouro Azul (identidade secreta: Jaime Reyes) combate ameaças globais operando na base Oficina Reyes em El Paso.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "124-99-4024",
+      "registro_chave": "SSN-REYES-66778",
+      "coordenadas_base": "34.0000° N, 94.0000° W"
+    }
+  },
+  {
+    "id": "dc-025",
+    "editora": "DC Comics",
+    "nome_heroi": "Gladiador Dourado",
+    "nome_verdadeiro": "Michael Jon Carter",
+    "equipe": "Liga da Justiça",
+    "localizacao_residencia": "Metropolis",
+    "base_secreta": "QG do Tempo",
+    "ocupacao_publica": "Viajante do Tempo",
+    "poderes": [
+      "Tecnologia do século XXV"
+    ],
+    "fraquezas": [
+      "Falha nos trajes"
+    ],
+    "biografia": "O herói Gladiador Dourado (identidade secreta: Michael Jon Carter) combate ameaças globais operando na base QG do Tempo em Metropolis.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "125-99-4025",
+      "registro_chave": "FUTURE-25TH-ID",
+      "coordenadas_base": "35.0000° N, 95.0000° W"
+    }
+  },
+  {
+    "id": "dc-026",
+    "editora": "DC Comics",
+    "nome_heroi": "Batman-v26",
+    "nome_verdadeiro": "Bruce Wayne",
+    "equipe": "Liga da Justiça",
+    "localizacao_residencia": "Gotham City",
+    "base_secreta": "Batcaverna",
+    "ocupacao_publica": "Empresário na Wayne Enterprises",
+    "poderes": [
+      "Pico humano",
+      "Intelecto gênio"
+    ],
+    "fraquezas": [
+      "Mortalidade humana"
+    ],
+    "biografia": "O herói Batman-v26 (identidade secreta: Bruce Wayne) combate ameaças globais operando na base Batcaverna em Gotham City.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "126-99-4026",
+      "registro_chave": "WAYNE-ENT-SWISS-0091",
+      "coordenadas_base": "36.0000° N, 96.0000° W"
+    }
+  },
+  {
+    "id": "dc-027",
+    "editora": "DC Comics",
+    "nome_heroi": "Superman-v27",
+    "nome_verdadeiro": "Clark Joseph Kent (Kal-El)",
+    "equipe": "Liga da Justiça",
+    "localizacao_residencia": "Metropolis",
+    "base_secreta": "Fortaleza da Solidão",
+    "ocupacao_publica": "Jornalista no Planeta Diário",
+    "poderes": [
+      "Superforça",
+      "Voo",
+      "Visão de calor"
+    ],
+    "fraquezas": [
+      "Radiação de Criptonita"
+    ],
+    "biografia": "O herói Superman-v27 (identidade secreta: Clark Joseph Kent (Kal-El)) combate ameaças globais operando na base Fortaleza da Solidão em Metropolis.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "127-99-4027",
+      "registro_chave": "KRYPTON-KALEL-GENOME",
+      "coordenadas_base": "37.0000° N, 97.0000° W"
+    }
+  },
+  {
+    "id": "dc-028",
+    "editora": "DC Comics",
+    "nome_heroi": "Mulher-Maravilha-v28",
+    "nome_verdadeiro": "Diana Prince",
+    "equipe": "Liga da Justiça",
+    "localizacao_residencia": "Washington D.C.",
+    "base_secreta": "Themyscira",
+    "ocupacao_publica": "Embaixadora",
+    "poderes": [
+      "Força divina",
+      "Voo",
+      "Laço da Verdade"
+    ],
+    "fraquezas": [
+      "Armas de origem divina"
+    ],
+    "biografia": "O herói Mulher-Maravilha-v28 (identidade secreta: Diana Prince) combate ameaças globais operando na base Themyscira em Washington D.C..",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "128-99-4028",
+      "registro_chave": "PASS-DIANA-PRINCE",
+      "coordenadas_base": "38.0000° N, 98.0000° W"
+    }
+  },
+  {
+    "id": "dc-029",
+    "editora": "DC Comics",
+    "nome_heroi": "The Flash-v29",
+    "nome_verdadeiro": "Bartholomew Henry Allen",
+    "equipe": "Liga da Justiça",
+    "localizacao_residencia": "Central City",
+    "base_secreta": "Laboratórios S.T.A.R.",
+    "ocupacao_publica": "Cientista Forense",
+    "poderes": [
+      "Speed Force",
+      "Supervelocidade"
+    ],
+    "fraquezas": [
+      "Zero absoluto"
+    ],
+    "biografia": "O herói The Flash-v29 (identidade secreta: Bartholomew Henry Allen) combate ameaças globais operando na base Laboratórios S.T.A.R. em Central City.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "129-99-4029",
+      "registro_chave": "SSN-FLASH-44311",
+      "coordenadas_base": "39.0000° N, 99.0000° W"
+    }
+  },
+  {
+    "id": "dc-030",
+    "editora": "DC Comics",
+    "nome_heroi": "Lanterna Verde (Hal Jordan)-v30",
+    "nome_verdadeiro": "Harold Jordan",
+    "equipe": "Tropa dos Lanternas Verdes",
+    "localizacao_residencia": "Coast City",
+    "base_secreta": "Hangar Ferris Aircraft",
+    "ocupacao_publica": "Piloto de Testes",
+    "poderes": [
+      "Anel de Poder",
+      "Voo espacial"
+    ],
+    "fraquezas": [
+      "Falta de concentração"
+    ],
+    "biografia": "O herói Lanterna Verde (Hal Jordan)-v30 (identidade secreta: Harold Jordan) combate ameaças globais operando na base Hangar Ferris Aircraft em Coast City.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "130-99-4030",
+      "registro_chave": "SSN-HAL-99100",
+      "coordenadas_base": "40.0000° N, 70.0000° W"
+    }
+  },
+  {
+    "id": "dc-031",
+    "editora": "DC Comics",
+    "nome_heroi": "Aquaman-v31",
+    "nome_verdadeiro": "Arthur Curry",
+    "equipe": "Liga da Justiça",
+    "localizacao_residencia": "Amnesty Bay",
+    "base_secreta": "Atlântida",
+    "ocupacao_publica": "Rei de Atlântida",
+    "poderes": [
+      "Telepatia marinha",
+      "Superforça"
+    ],
+    "fraquezas": [
+      "Desidratação severa"
+    ],
+    "biografia": "O herói Aquaman-v31 (identidade secreta: Arthur Curry) combate ameaças globais operando na base Atlântida em Amnesty Bay.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "131-99-4031",
+      "registro_chave": "ROYAL-ATLANTIS-001",
+      "coordenadas_base": "41.0000° N, 71.0000° W"
+    }
+  },
+  {
+    "id": "dc-032",
+    "editora": "DC Comics",
+    "nome_heroi": "Ciborgue-v32",
+    "nome_verdadeiro": "Victor Stone",
+    "equipe": "Liga da Justiça",
+    "localizacao_residencia": "Detroit",
+    "base_secreta": "Torre dos Titãs",
+    "ocupacao_publica": "Ex-atleta",
+    "poderes": [
+      "Tecnopatia",
+      "Canhão de som"
+    ],
+    "fraquezas": [
+      "Vírus cibernéticos"
+    ],
+    "biografia": "O herói Ciborgue-v32 (identidade secreta: Victor Stone) combate ameaças globais operando na base Torre dos Titãs em Detroit.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "132-99-4032",
+      "registro_chave": "SSN-CYBORG-77100",
+      "coordenadas_base": "42.0000° N, 72.0000° W"
+    }
+  },
+  {
+    "id": "dc-033",
+    "editora": "DC Comics",
+    "nome_heroi": "Shazam-v33",
+    "nome_verdadeiro": "William Joseph Batson",
+    "equipe": "Liga da Justiça",
+    "localizacao_residencia": "Philadelphia",
+    "base_secreta": "Rochas da Eternidade",
+    "ocupacao_publica": "Estudante",
+    "poderes": [
+      "Sabedoria de Salomão",
+      "Relâmpagos"
+    ],
+    "fraquezas": [
+      "Pronunciar a palavra Shazam"
+    ],
+    "biografia": "O herói Shazam-v33 (identidade secreta: William Joseph Batson) combate ameaças globais operando na base Rochas da Eternidade em Philadelphia.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "133-99-4033",
+      "registro_chave": "SSN-SHAZAM-55122",
+      "coordenadas_base": "43.0000° N, 73.0000° W"
+    }
+  },
+  {
+    "id": "dc-034",
+    "editora": "DC Comics",
+    "nome_heroi": "Caçador de Marte-v34",
+    "nome_verdadeiro": "J'onn J'onzz",
+    "equipe": "Liga da Justiça",
+    "localizacao_residencia": "Denver",
+    "base_secreta": "QG da Liga",
+    "ocupacao_publica": "Detetive de Polícia",
+    "poderes": [
+      "Telepatia",
+      "Metamorfose"
+    ],
+    "fraquezas": [
+      "Fogo"
+    ],
+    "biografia": "O herói Caçador de Marte-v34 (identidade secreta: J'onn J'onzz) combate ameaças globais operando na base QG da Liga em Denver.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "134-99-4034",
+      "registro_chave": "SSN-MARTIAN-22199",
+      "coordenadas_base": "44.0000° N, 74.0000° W"
+    }
+  },
+  {
+    "id": "dc-035",
+    "editora": "DC Comics",
+    "nome_heroi": "Arqueiro Verde-v35",
+    "nome_verdadeiro": "Oliver Queen",
+    "equipe": "Liga da Justiça",
+    "localizacao_residencia": "Star City",
+    "base_secreta": "Bunker do Arqueiro",
+    "ocupacao_publica": "Empresário na Queen Industries",
+    "poderes": [
+      "Mestre em Arco e Flecha"
+    ],
+    "fraquezas": [
+      "Mortalidade humana"
+    ],
+    "biografia": "O herói Arqueiro Verde-v35 (identidade secreta: Oliver Queen) combate ameaças globais operando na base Bunker do Arqueiro em Star City.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "135-99-4035",
+      "registro_chave": "QUEEN-IND-SWISS-01",
+      "coordenadas_base": "45.0000° N, 75.0000° W"
+    }
+  },
+  {
+    "id": "dc-036",
+    "editora": "DC Comics",
+    "nome_heroi": "Canário Negro-v36",
+    "nome_verdadeiro": "Dinah Laurel Lance",
+    "equipe": "Aves de Rapina",
+    "localizacao_residencia": "Gotham City",
+    "base_secreta": "Dojo Aves de Rapina",
+    "ocupacao_publica": "Instrutora de Artes Marciais",
+    "poderes": [
+      "Grito do Canário"
+    ],
+    "fraquezas": [
+      "Vulnerabilidade auditiva"
+    ],
+    "biografia": "O herói Canário Negro-v36 (identidade secreta: Dinah Laurel Lance) combate ameaças globais operando na base Dojo Aves de Rapina em Gotham City.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "136-99-4036",
+      "registro_chave": "SSN-CANARY-88221",
+      "coordenadas_base": "46.0000° N, 76.0000° W"
+    }
+  },
+  {
+    "id": "dc-037",
+    "editora": "DC Comics",
+    "nome_heroi": "Asa Noturna-v37",
+    "nome_verdadeiro": "Richard Dick Grayson",
+    "equipe": "Titãs",
+    "localizacao_residencia": "Blüdhaven",
+    "base_secreta": "QG de Blüdhaven",
+    "ocupacao_publica": "Detetive de Polícia",
+    "poderes": [
+      "Acrobacia mestre",
+      "Liderança"
+    ],
+    "fraquezas": [
+      "Mortalidade humana"
+    ],
+    "biografia": "O herói Asa Noturna-v37 (identidade secreta: Richard Dick Grayson) combate ameaças globais operando na base QG de Blüdhaven em Blüdhaven.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "137-99-4037",
+      "registro_chave": "SSN-GRAYSON-11223",
+      "coordenadas_base": "47.0000° N, 77.0000° W"
+    }
+  },
+  {
+    "id": "dc-038",
+    "editora": "DC Comics",
+    "nome_heroi": "Robin (Tim Drake)-v38",
+    "nome_verdadeiro": "Timothy Jackson Drake",
+    "equipe": "Titãs",
+    "localizacao_residencia": "Gotham City",
+    "base_secreta": "Batcaverna",
+    "ocupacao_publica": "Estudante",
+    "poderes": [
+      "Intelecto de detetive"
+    ],
+    "fraquezas": [
+      "Mortalidade humana"
+    ],
+    "biografia": "O herói Robin (Tim Drake)-v38 (identidade secreta: Timothy Jackson Drake) combate ameaças globais operando na base Batcaverna em Gotham City.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "138-99-4038",
+      "registro_chave": "SSN-DRAKE-99331",
+      "coordenadas_base": "48.0000° N, 78.0000° W"
+    }
+  },
+  {
+    "id": "dc-039",
+    "editora": "DC Comics",
+    "nome_heroi": "Batgirl (Barbara Gordon)-v39",
+    "nome_verdadeiro": "Barbara Gordon",
+    "equipe": "Aves de Rapina",
+    "localizacao_residencia": "Gotham City",
+    "base_secreta": "Torre do Oráculo",
+    "ocupacao_publica": "Bibliotecária / Hacker",
+    "poderes": [
+      "Intelecto genial",
+      "Hacker"
+    ],
+    "fraquezas": [
+      "Mortalidade humana"
+    ],
+    "biografia": "O herói Batgirl (Barbara Gordon)-v39 (identidade secreta: Barbara Gordon) combate ameaças globais operando na base Torre do Oráculo em Gotham City.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "139-99-4039",
+      "registro_chave": "SSN-ORACLE-44112",
+      "coordenadas_base": "49.0000° N, 79.0000° W"
+    }
+  },
+  {
+    "id": "dc-040",
+    "editora": "DC Comics",
+    "nome_heroi": "Zatanna-v40",
+    "nome_verdadeiro": "Zatanna Zatara",
+    "equipe": "Liga da Justiça Sombria",
+    "localizacao_residencia": "San Francisco",
+    "base_secreta": "Mansão Zatara",
+    "ocupacao_publica": "Ilusionista de Palco",
+    "poderes": [
+      "Magia verbal ao contrário"
+    ],
+    "fraquezas": [
+      "Incapacidade de falar"
+    ],
+    "biografia": "O herói Zatanna-v40 (identidade secreta: Zatanna Zatara) combate ameaças globais operando na base Mansão Zatara em San Francisco.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "140-99-4040",
+      "registro_chave": "PASS-ZATANNA-9988",
+      "coordenadas_base": "30.0000° N, 80.0000° W"
+    }
+  },
+  {
+    "id": "dc-041",
+    "editora": "DC Comics",
+    "nome_heroi": "Constantine-v41",
+    "nome_verdadeiro": "John Constantine",
+    "equipe": "Liga da Justiça Sombria",
+    "localizacao_residencia": "Londres",
+    "base_secreta": "Apartamento em Londres",
+    "ocupacao_publica": "Ocultista",
+    "poderes": [
+      "Feitiçaria",
+      "Astúcia"
+    ],
+    "fraquezas": [
+      "Mortalidade humana"
+    ],
+    "biografia": "O herói Constantine-v41 (identidade secreta: John Constantine) combate ameaças globais operando na base Apartamento em Londres em Londres.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "141-99-4041",
+      "registro_chave": "UK-PASS-CONST-007",
+      "coordenadas_base": "31.0000° N, 81.0000° W"
+    }
+  },
+  {
+    "id": "dc-042",
+    "editora": "DC Comics",
+    "nome_heroi": "Monstro do Pântano-v42",
+    "nome_verdadeiro": "Alec Holland",
+    "equipe": "Liga da Justiça Sombria",
+    "localizacao_residencia": "Pântano da Louisiana",
+    "base_secreta": "O Verde",
+    "ocupacao_publica": "Botânico",
+    "poderes": [
+      "Elemental da Vegetação"
+    ],
+    "fraquezas": [
+      "Poluição extrema"
+    ],
+    "biografia": "O herói Monstro do Pântano-v42 (identidade secreta: Alec Holland) combate ameaças globais operando na base O Verde em Pântano da Louisiana.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "142-99-4042",
+      "registro_chave": "GREEN-ELEMENTAL-DOC",
+      "coordenadas_base": "32.0000° N, 82.0000° W"
+    }
+  },
+  {
+    "id": "dc-043",
+    "editora": "DC Comics",
+    "nome_heroi": "Gavião Negro-v43",
+    "nome_verdadeiro": "Carter Hall",
+    "equipe": "Sociedade da Justiça",
+    "localizacao_residencia": "St. Roch",
+    "base_secreta": "Museum of St. Roch",
+    "ocupacao_publica": "Arqueólogo",
+    "poderes": [
+      "Voo com Metal Nth",
+      "Reencarnação"
+    ],
+    "fraquezas": [
+      "Mortalidade física"
+    ],
+    "biografia": "O herói Gavião Negro-v43 (identidade secreta: Carter Hall) combate ameaças globais operando na base Museum of St. Roch em St. Roch.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "143-99-4043",
+      "registro_chave": "SSN-HAWK-77665",
+      "coordenadas_base": "33.0000° N, 83.0000° W"
+    }
+  },
+  {
+    "id": "dc-044",
+    "editora": "DC Comics",
+    "nome_heroi": "Mulher-Gavião-v44",
+    "nome_verdadeiro": "Kendra Saunders",
+    "equipe": "Sociedade da Justiça",
+    "localizacao_residencia": "St. Roch",
+    "base_secreta": "Hangar Nth",
+    "ocupacao_publica": "Arqueóloga",
+    "poderes": [
+      "Voo com Metal Nth",
+      "Força"
+    ],
+    "fraquezas": [
+      "Mortalidade física"
+    ],
+    "biografia": "O herói Mulher-Gavião-v44 (identidade secreta: Kendra Saunders) combate ameaças globais operando na base Hangar Nth em St. Roch.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "144-99-4044",
+      "registro_chave": "SSN-HAWKGIRL-77666",
+      "coordenadas_base": "34.0000° N, 84.0000° W"
+    }
+  },
+  {
+    "id": "dc-045",
+    "editora": "DC Comics",
+    "nome_heroi": "Sr. Destino-v45",
+    "nome_verdadeiro": "Kent Nelson",
+    "equipe": "Sociedade da Justiça",
+    "localizacao_residencia": "Salem",
+    "base_secreta": "Torre do Destino",
+    "ocupacao_publica": "Arqueólogo",
+    "poderes": [
+      "Magia do Elmo de Nabu"
+    ],
+    "fraquezas": [
+      "Perda do Elmo"
+    ],
+    "biografia": "O herói Sr. Destino-v45 (identidade secreta: Kent Nelson) combate ameaças globais operando na base Torre do Destino em Salem.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "145-99-4045",
+      "registro_chave": "HELM-NABU-MAGIC-DOC",
+      "coordenadas_base": "35.0000° N, 85.0000° W"
+    }
+  },
+  {
+    "id": "dc-046",
+    "editora": "DC Comics",
+    "nome_heroi": "Estelar-v46",
+    "nome_verdadeiro": "Koriand'r",
+    "equipe": "Titãs",
+    "localizacao_residencia": "Jump City",
+    "base_secreta": "Torre dos Titãs",
+    "ocupacao_publica": "Princesa Tamaraniana",
+    "poderes": [
+      "Raios estelares",
+      "Voo"
+    ],
+    "fraquezas": [
+      "Absorção de energia fria"
+    ],
+    "biografia": "O herói Estelar-v46 (identidade secreta: Koriand'r) combate ameaças globais operando na base Torre dos Titãs em Jump City.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "146-99-4046",
+      "registro_chave": "TAMARAN-ROYAL-PASS",
+      "coordenadas_base": "36.0000° N, 86.0000° W"
+    }
+  },
+  {
+    "id": "dc-047",
+    "editora": "DC Comics",
+    "nome_heroi": "Mutano-v47",
+    "nome_verdadeiro": "Garfield Mark Logan",
+    "equipe": "Titãs",
+    "localizacao_residencia": "Jump City",
+    "base_secreta": "Torre dos Titãs",
+    "ocupacao_publica": "Ator",
+    "poderes": [
+      "Metamorfose em animais"
+    ],
+    "fraquezas": [
+      "Forma humana vulnerável"
+    ],
+    "biografia": "O herói Mutano-v47 (identidade secreta: Garfield Mark Logan) combate ameaças globais operando na base Torre dos Titãs em Jump City.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "147-99-4047",
+      "registro_chave": "SSN-BEASTBOY-5544",
+      "coordenadas_base": "37.0000° N, 87.0000° W"
+    }
+  },
+  {
+    "id": "dc-048",
+    "editora": "DC Comics",
+    "nome_heroi": "Ravena-v48",
+    "nome_verdadeiro": "Rachel Roth",
+    "equipe": "Titãs",
+    "localizacao_residencia": "Jump City",
+    "base_secreta": "Torre dos Titãs",
+    "ocupacao_publica": "Estudante",
+    "poderes": [
+      "Empatia",
+      "Magia das sombras"
+    ],
+    "fraquezas": [
+      "Emoções descontroladas"
+    ],
+    "biografia": "O herói Ravena-v48 (identidade secreta: Rachel Roth) combate ameaças globais operando na base Torre dos Titãs em Jump City.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "148-99-4048",
+      "registro_chave": "AZARATH-MAGIC-KEY",
+      "coordenadas_base": "38.0000° N, 88.0000° W"
+    }
+  },
+  {
+    "id": "dc-049",
+    "editora": "DC Comics",
+    "nome_heroi": "Besouro Azul-v49",
+    "nome_verdadeiro": "Jaime Reyes",
+    "equipe": "Titãs",
+    "localizacao_residencia": "El Paso",
+    "base_secreta": "Oficina Reyes",
+    "ocupacao_publica": "Estudante",
+    "poderes": [
+      "Escaravelho AlienígenaKhaji Da"
+    ],
+    "fraquezas": [
+      "Desconexão do escaravelho"
+    ],
+    "biografia": "O herói Besouro Azul-v49 (identidade secreta: Jaime Reyes) combate ameaças globais operando na base Oficina Reyes em El Paso.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "149-99-4049",
+      "registro_chave": "SSN-REYES-66778",
+      "coordenadas_base": "39.0000° N, 89.0000° W"
+    }
+  },
+  {
+    "id": "dc-050",
+    "editora": "DC Comics",
+    "nome_heroi": "Gladiador Dourado-v50",
+    "nome_verdadeiro": "Michael Jon Carter",
+    "equipe": "Liga da Justiça",
+    "localizacao_residencia": "Metropolis",
+    "base_secreta": "QG do Tempo",
+    "ocupacao_publica": "Viajante do Tempo",
+    "poderes": [
+      "Tecnologia do século XXV"
+    ],
+    "fraquezas": [
+      "Falha nos trajes"
+    ],
+    "biografia": "O herói Gladiador Dourado-v50 (identidade secreta: Michael Jon Carter) combate ameaças globais operando na base QG do Tempo em Metropolis.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "150-99-4050",
+      "registro_chave": "FUTURE-25TH-ID",
+      "coordenadas_base": "40.0000° N, 90.0000° W"
+    }
+  },
+  {
+    "id": "dc-051",
+    "editora": "DC Comics",
+    "nome_heroi": "Batman-v51",
+    "nome_verdadeiro": "Bruce Wayne",
+    "equipe": "Liga da Justiça",
+    "localizacao_residencia": "Gotham City",
+    "base_secreta": "Batcaverna",
+    "ocupacao_publica": "Empresário na Wayne Enterprises",
+    "poderes": [
+      "Pico humano",
+      "Intelecto gênio"
+    ],
+    "fraquezas": [
+      "Mortalidade humana"
+    ],
+    "biografia": "O herói Batman-v51 (identidade secreta: Bruce Wayne) combate ameaças globais operando na base Batcaverna em Gotham City.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "151-99-4051",
+      "registro_chave": "WAYNE-ENT-SWISS-0091",
+      "coordenadas_base": "41.0000° N, 91.0000° W"
+    }
+  },
+  {
+    "id": "dc-052",
+    "editora": "DC Comics",
+    "nome_heroi": "Superman-v52",
+    "nome_verdadeiro": "Clark Joseph Kent (Kal-El)",
+    "equipe": "Liga da Justiça",
+    "localizacao_residencia": "Metropolis",
+    "base_secreta": "Fortaleza da Solidão",
+    "ocupacao_publica": "Jornalista no Planeta Diário",
+    "poderes": [
+      "Superforça",
+      "Voo",
+      "Visão de calor"
+    ],
+    "fraquezas": [
+      "Radiação de Criptonita"
+    ],
+    "biografia": "O herói Superman-v52 (identidade secreta: Clark Joseph Kent (Kal-El)) combate ameaças globais operando na base Fortaleza da Solidão em Metropolis.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "152-99-4052",
+      "registro_chave": "KRYPTON-KALEL-GENOME",
+      "coordenadas_base": "42.0000° N, 92.0000° W"
+    }
+  },
+  {
+    "id": "dc-053",
+    "editora": "DC Comics",
+    "nome_heroi": "Mulher-Maravilha-v53",
+    "nome_verdadeiro": "Diana Prince",
+    "equipe": "Liga da Justiça",
+    "localizacao_residencia": "Washington D.C.",
+    "base_secreta": "Themyscira",
+    "ocupacao_publica": "Embaixadora",
+    "poderes": [
+      "Força divina",
+      "Voo",
+      "Laço da Verdade"
+    ],
+    "fraquezas": [
+      "Armas de origem divina"
+    ],
+    "biografia": "O herói Mulher-Maravilha-v53 (identidade secreta: Diana Prince) combate ameaças globais operando na base Themyscira em Washington D.C..",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "153-99-4053",
+      "registro_chave": "PASS-DIANA-PRINCE",
+      "coordenadas_base": "43.0000° N, 93.0000° W"
+    }
+  },
+  {
+    "id": "dc-054",
+    "editora": "DC Comics",
+    "nome_heroi": "The Flash-v54",
+    "nome_verdadeiro": "Bartholomew Henry Allen",
+    "equipe": "Liga da Justiça",
+    "localizacao_residencia": "Central City",
+    "base_secreta": "Laboratórios S.T.A.R.",
+    "ocupacao_publica": "Cientista Forense",
+    "poderes": [
+      "Speed Force",
+      "Supervelocidade"
+    ],
+    "fraquezas": [
+      "Zero absoluto"
+    ],
+    "biografia": "O herói The Flash-v54 (identidade secreta: Bartholomew Henry Allen) combate ameaças globais operando na base Laboratórios S.T.A.R. em Central City.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "154-99-4054",
+      "registro_chave": "SSN-FLASH-44311",
+      "coordenadas_base": "44.0000° N, 94.0000° W"
+    }
+  },
+  {
+    "id": "dc-055",
+    "editora": "DC Comics",
+    "nome_heroi": "Lanterna Verde (Hal Jordan)-v55",
+    "nome_verdadeiro": "Harold Jordan",
+    "equipe": "Tropa dos Lanternas Verdes",
+    "localizacao_residencia": "Coast City",
+    "base_secreta": "Hangar Ferris Aircraft",
+    "ocupacao_publica": "Piloto de Testes",
+    "poderes": [
+      "Anel de Poder",
+      "Voo espacial"
+    ],
+    "fraquezas": [
+      "Falta de concentração"
+    ],
+    "biografia": "O herói Lanterna Verde (Hal Jordan)-v55 (identidade secreta: Harold Jordan) combate ameaças globais operando na base Hangar Ferris Aircraft em Coast City.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "155-99-4055",
+      "registro_chave": "SSN-HAL-99100",
+      "coordenadas_base": "45.0000° N, 95.0000° W"
+    }
+  },
+  {
+    "id": "dc-056",
+    "editora": "DC Comics",
+    "nome_heroi": "Aquaman-v56",
+    "nome_verdadeiro": "Arthur Curry",
+    "equipe": "Liga da Justiça",
+    "localizacao_residencia": "Amnesty Bay",
+    "base_secreta": "Atlântida",
+    "ocupacao_publica": "Rei de Atlântida",
+    "poderes": [
+      "Telepatia marinha",
+      "Superforça"
+    ],
+    "fraquezas": [
+      "Desidratação severa"
+    ],
+    "biografia": "O herói Aquaman-v56 (identidade secreta: Arthur Curry) combate ameaças globais operando na base Atlântida em Amnesty Bay.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "156-99-4056",
+      "registro_chave": "ROYAL-ATLANTIS-001",
+      "coordenadas_base": "46.0000° N, 96.0000° W"
+    }
+  },
+  {
+    "id": "dc-057",
+    "editora": "DC Comics",
+    "nome_heroi": "Ciborgue-v57",
+    "nome_verdadeiro": "Victor Stone",
+    "equipe": "Liga da Justiça",
+    "localizacao_residencia": "Detroit",
+    "base_secreta": "Torre dos Titãs",
+    "ocupacao_publica": "Ex-atleta",
+    "poderes": [
+      "Tecnopatia",
+      "Canhão de som"
+    ],
+    "fraquezas": [
+      "Vírus cibernéticos"
+    ],
+    "biografia": "O herói Ciborgue-v57 (identidade secreta: Victor Stone) combate ameaças globais operando na base Torre dos Titãs em Detroit.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "157-99-4057",
+      "registro_chave": "SSN-CYBORG-77100",
+      "coordenadas_base": "47.0000° N, 97.0000° W"
+    }
+  },
+  {
+    "id": "dc-058",
+    "editora": "DC Comics",
+    "nome_heroi": "Shazam-v58",
+    "nome_verdadeiro": "William Joseph Batson",
+    "equipe": "Liga da Justiça",
+    "localizacao_residencia": "Philadelphia",
+    "base_secreta": "Rochas da Eternidade",
+    "ocupacao_publica": "Estudante",
+    "poderes": [
+      "Sabedoria de Salomão",
+      "Relâmpagos"
+    ],
+    "fraquezas": [
+      "Pronunciar a palavra Shazam"
+    ],
+    "biografia": "O herói Shazam-v58 (identidade secreta: William Joseph Batson) combate ameaças globais operando na base Rochas da Eternidade em Philadelphia.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "158-99-4058",
+      "registro_chave": "SSN-SHAZAM-55122",
+      "coordenadas_base": "48.0000° N, 98.0000° W"
+    }
+  },
+  {
+    "id": "dc-059",
+    "editora": "DC Comics",
+    "nome_heroi": "Caçador de Marte-v59",
+    "nome_verdadeiro": "J'onn J'onzz",
+    "equipe": "Liga da Justiça",
+    "localizacao_residencia": "Denver",
+    "base_secreta": "QG da Liga",
+    "ocupacao_publica": "Detetive de Polícia",
+    "poderes": [
+      "Telepatia",
+      "Metamorfose"
+    ],
+    "fraquezas": [
+      "Fogo"
+    ],
+    "biografia": "O herói Caçador de Marte-v59 (identidade secreta: J'onn J'onzz) combate ameaças globais operando na base QG da Liga em Denver.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "159-99-4059",
+      "registro_chave": "SSN-MARTIAN-22199",
+      "coordenadas_base": "49.0000° N, 99.0000° W"
+    }
+  },
+  {
+    "id": "dc-060",
+    "editora": "DC Comics",
+    "nome_heroi": "Arqueiro Verde-v60",
+    "nome_verdadeiro": "Oliver Queen",
+    "equipe": "Liga da Justiça",
+    "localizacao_residencia": "Star City",
+    "base_secreta": "Bunker do Arqueiro",
+    "ocupacao_publica": "Empresário na Queen Industries",
+    "poderes": [
+      "Mestre em Arco e Flecha"
+    ],
+    "fraquezas": [
+      "Mortalidade humana"
+    ],
+    "biografia": "O herói Arqueiro Verde-v60 (identidade secreta: Oliver Queen) combate ameaças globais operando na base Bunker do Arqueiro em Star City.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "160-99-4060",
+      "registro_chave": "QUEEN-IND-SWISS-01",
+      "coordenadas_base": "30.0000° N, 70.0000° W"
+    }
+  },
+  {
+    "id": "dc-061",
+    "editora": "DC Comics",
+    "nome_heroi": "Canário Negro-v61",
+    "nome_verdadeiro": "Dinah Laurel Lance",
+    "equipe": "Aves de Rapina",
+    "localizacao_residencia": "Gotham City",
+    "base_secreta": "Dojo Aves de Rapina",
+    "ocupacao_publica": "Instrutora de Artes Marciais",
+    "poderes": [
+      "Grito do Canário"
+    ],
+    "fraquezas": [
+      "Vulnerabilidade auditiva"
+    ],
+    "biografia": "O herói Canário Negro-v61 (identidade secreta: Dinah Laurel Lance) combate ameaças globais operando na base Dojo Aves de Rapina em Gotham City.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "161-99-4061",
+      "registro_chave": "SSN-CANARY-88221",
+      "coordenadas_base": "31.0000° N, 71.0000° W"
+    }
+  },
+  {
+    "id": "dc-062",
+    "editora": "DC Comics",
+    "nome_heroi": "Asa Noturna-v62",
+    "nome_verdadeiro": "Richard Dick Grayson",
+    "equipe": "Titãs",
+    "localizacao_residencia": "Blüdhaven",
+    "base_secreta": "QG de Blüdhaven",
+    "ocupacao_publica": "Detetive de Polícia",
+    "poderes": [
+      "Acrobacia mestre",
+      "Liderança"
+    ],
+    "fraquezas": [
+      "Mortalidade humana"
+    ],
+    "biografia": "O herói Asa Noturna-v62 (identidade secreta: Richard Dick Grayson) combate ameaças globais operando na base QG de Blüdhaven em Blüdhaven.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "162-99-4062",
+      "registro_chave": "SSN-GRAYSON-11223",
+      "coordenadas_base": "32.0000° N, 72.0000° W"
+    }
+  },
+  {
+    "id": "dc-063",
+    "editora": "DC Comics",
+    "nome_heroi": "Robin (Tim Drake)-v63",
+    "nome_verdadeiro": "Timothy Jackson Drake",
+    "equipe": "Titãs",
+    "localizacao_residencia": "Gotham City",
+    "base_secreta": "Batcaverna",
+    "ocupacao_publica": "Estudante",
+    "poderes": [
+      "Intelecto de detetive"
+    ],
+    "fraquezas": [
+      "Mortalidade humana"
+    ],
+    "biografia": "O herói Robin (Tim Drake)-v63 (identidade secreta: Timothy Jackson Drake) combate ameaças globais operando na base Batcaverna em Gotham City.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "163-99-4063",
+      "registro_chave": "SSN-DRAKE-99331",
+      "coordenadas_base": "33.0000° N, 73.0000° W"
+    }
+  },
+  {
+    "id": "dc-064",
+    "editora": "DC Comics",
+    "nome_heroi": "Batgirl (Barbara Gordon)-v64",
+    "nome_verdadeiro": "Barbara Gordon",
+    "equipe": "Aves de Rapina",
+    "localizacao_residencia": "Gotham City",
+    "base_secreta": "Torre do Oráculo",
+    "ocupacao_publica": "Bibliotecária / Hacker",
+    "poderes": [
+      "Intelecto genial",
+      "Hacker"
+    ],
+    "fraquezas": [
+      "Mortalidade humana"
+    ],
+    "biografia": "O herói Batgirl (Barbara Gordon)-v64 (identidade secreta: Barbara Gordon) combate ameaças globais operando na base Torre do Oráculo em Gotham City.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "164-99-4064",
+      "registro_chave": "SSN-ORACLE-44112",
+      "coordenadas_base": "34.0000° N, 74.0000° W"
+    }
+  },
+  {
+    "id": "dc-065",
+    "editora": "DC Comics",
+    "nome_heroi": "Zatanna-v65",
+    "nome_verdadeiro": "Zatanna Zatara",
+    "equipe": "Liga da Justiça Sombria",
+    "localizacao_residencia": "San Francisco",
+    "base_secreta": "Mansão Zatara",
+    "ocupacao_publica": "Ilusionista de Palco",
+    "poderes": [
+      "Magia verbal ao contrário"
+    ],
+    "fraquezas": [
+      "Incapacidade de falar"
+    ],
+    "biografia": "O herói Zatanna-v65 (identidade secreta: Zatanna Zatara) combate ameaças globais operando na base Mansão Zatara em San Francisco.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "165-99-4065",
+      "registro_chave": "PASS-ZATANNA-9988",
+      "coordenadas_base": "35.0000° N, 75.0000° W"
+    }
+  },
+  {
+    "id": "marvel-001",
+    "editora": "Marvel Comics",
+    "nome_heroi": "Homem-Aranha",
+    "nome_verdadeiro": "Peter Benjamin Parker",
+    "equipe": "Vingadores",
+    "localizacao_residencia": "Queens, Nova York",
+    "base_secreta": "Apartamento no Queens",
+    "ocupacao_publica": "Fotógrafo Freelancer",
+    "poderes": [
+      "Sentido Aranha",
+      "Escalar paredes"
+    ],
+    "fraquezas": [
+      "Mortalidade humana"
+    ],
+    "biografia": "O herói Homem-Aranha (identidade secreta: Peter Benjamin Parker) protege a Terra operando a partir da base Apartamento no Queens localizada em Queens, Nova York.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "201-88-5001",
+      "registro_chave": "SSN-SPIDEY-11900",
+      "coordenadas_base": "41.0000° N, 81.0000° W"
+    }
+  },
+  {
+    "id": "marvel-002",
+    "editora": "Marvel Comics",
+    "nome_heroi": "Homem de Ferro",
+    "nome_verdadeiro": "Anthony Edward Stark",
+    "equipe": "Vingadores",
+    "localizacao_residencia": "Malibu, Califórnia",
+    "base_secreta": "Torre dos Vingadores",
+    "ocupacao_publica": "CEO na Stark Industries",
+    "poderes": [
+      "Intelecto gênio",
+      "Armadura Mark"
+    ],
+    "fraquezas": [
+      "Sem armadura"
+    ],
+    "biografia": "O herói Homem de Ferro (identidade secreta: Anthony Edward Stark) protege a Terra operando a partir da base Torre dos Vingadores localizada em Malibu, Califórnia.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "202-88-5002",
+      "registro_chave": "STARK-IND-SWISS-01",
+      "coordenadas_base": "42.0000° N, 82.0000° W"
+    }
+  },
+  {
+    "id": "marvel-003",
+    "editora": "Marvel Comics",
+    "nome_heroi": "Capitão América",
+    "nome_verdadeiro": "Steven Grant Rogers",
+    "equipe": "Vingadores",
+    "localizacao_residencia": "Brooklyn, Nova York",
+    "base_secreta": "Instalações da S.H.I.E.L.D.",
+    "ocupacao_publica": "Militar",
+    "poderes": [
+      "Super-Soldado",
+      "Escudo de Vibranium"
+    ],
+    "fraquezas": [
+      "Mortalidade física"
+    ],
+    "biografia": "O herói Capitão América (identidade secreta: Steven Grant Rogers) protege a Terra operando a partir da base Instalações da S.H.I.E.L.D. localizada em Brooklyn, Nova York.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "203-88-5003",
+      "registro_chave": "SSN-CAP-33411",
+      "coordenadas_base": "43.0000° N, 83.0000° W"
+    }
+  },
+  {
+    "id": "marvel-004",
+    "editora": "Marvel Comics",
+    "nome_heroi": "Wolverine",
+    "nome_verdadeiro": "James Howlett (Logan)",
+    "equipe": "X-Men",
+    "localizacao_residencia": "Westchester, Nova York",
+    "base_secreta": "Instituto Xavier",
+    "ocupacao_publica": "Instrutor de Combate",
+    "poderes": [
+      "Fator de cura",
+      "Adamantium"
+    ],
+    "fraquezas": [
+      "Espada Muramasa"
+    ],
+    "biografia": "O herói Wolverine (identidade secreta: James Howlett (Logan)) protege a Terra operando a partir da base Instituto Xavier localizada em Westchester, Nova York.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "204-88-5004",
+      "registro_chave": "MUTANT-LOGAN-001",
+      "coordenadas_base": "44.0000° N, 84.0000° W"
+    }
+  },
+  {
+    "id": "marvel-005",
+    "editora": "Marvel Comics",
+    "nome_heroi": "Demolidor",
+    "nome_verdadeiro": "Matthew Michael Murdock",
+    "equipe": "Defensores",
+    "localizacao_residencia": "Hell's Kitchen, Nova York",
+    "base_secreta": "Escritório Nelson & Murdock",
+    "ocupacao_publica": "Advogado",
+    "poderes": [
+      "Radar biológico",
+      "Sentidos aguçados"
+    ],
+    "fraquezas": [
+      "Sobrecarga auditiva"
+    ],
+    "biografia": "O herói Demolidor (identidade secreta: Matthew Michael Murdock) protege a Terra operando a partir da base Escritório Nelson & Murdock localizada em Hell's Kitchen, Nova York.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "205-88-5005",
+      "registro_chave": "SSN-DAREDEVIL-441",
+      "coordenadas_base": "45.0000° N, 85.0000° W"
+    }
+  },
+  {
+    "id": "marvel-006",
+    "editora": "Marvel Comics",
+    "nome_heroi": "Thor",
+    "nome_verdadeiro": "Thor Odinson",
+    "equipe": "Vingadores",
+    "localizacao_residencia": "Nova Asgard",
+    "base_secreta": "Palácio Real de Asgard",
+    "ocupacao_publica": "Deus do Trovão",
+    "poderes": [
+      "Controle de trovões",
+      "Mjolnir"
+    ],
+    "fraquezas": [
+      "Orgulho"
+    ],
+    "biografia": "O herói Thor (identidade secreta: Thor Odinson) protege a Terra operando a partir da base Palácio Real de Asgard localizada em Nova Asgard.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "206-88-5006",
+      "registro_chave": "ASGARD-ROYAL-THOR",
+      "coordenadas_base": "46.0000° N, 86.0000° W"
+    }
+  },
+  {
+    "id": "marvel-007",
+    "editora": "Marvel Comics",
+    "nome_heroi": "Hulk",
+    "nome_verdadeiro": "Robert Bruce Banner",
+    "equipe": "Vingadores",
+    "localizacao_residencia": "Dayton, Ohio",
+    "base_secreta": "Laboratório Móvel",
+    "ocupacao_publica": "Físico Nuclear",
+    "poderes": [
+      "Força física ilimitada",
+      "Radiação Gama"
+    ],
+    "fraquezas": [
+      "Perda de controle"
+    ],
+    "biografia": "O herói Hulk (identidade secreta: Robert Bruce Banner) protege a Terra operando a partir da base Laboratório Móvel localizada em Dayton, Ohio.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "207-88-5007",
+      "registro_chave": "SSN-HULK-55100",
+      "coordenadas_base": "47.0000° N, 87.0000° W"
+    }
+  },
+  {
+    "id": "marvel-008",
+    "editora": "Marvel Comics",
+    "nome_heroi": "Pantera Negra",
+    "nome_verdadeiro": "T'Challa",
+    "equipe": "Vingadores",
+    "localizacao_residencia": "Birnin Zana",
+    "base_secreta": "Palácio Real de Wakanda",
+    "ocupacao_publica": "Rei de Wakanda",
+    "poderes": [
+      "Erva Coração",
+      "Traje de Vibranium"
+    ],
+    "fraquezas": [
+      "Mortalidade humana"
+    ],
+    "biografia": "O herói Pantera Negra (identidade secreta: T'Challa) protege a Terra operando a partir da base Palácio Real de Wakanda localizada em Birnin Zana.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "208-88-5008",
+      "registro_chave": "WAKANDA-ROYAL-TCHALLA",
+      "coordenadas_base": "48.0000° N, 88.0000° W"
+    }
+  },
+  {
+    "id": "marvel-009",
+    "editora": "Marvel Comics",
+    "nome_heroi": "Doutor Estranho",
+    "nome_verdadeiro": "Stephen Vincent Strange",
+    "equipe": "Vingadores",
+    "localizacao_residencia": "Nova York",
+    "base_secreta": "Sanctum Sanctorum",
+    "ocupacao_publica": "Mago Supremo / Cirurgião",
+    "poderes": [
+      "Artes Místicas",
+      "Olho de Agamotto"
+    ],
+    "fraquezas": [
+      "Dano físico às mãos"
+    ],
+    "biografia": "O herói Doutor Estranho (identidade secreta: Stephen Vincent Strange) protege a Terra operando a partir da base Sanctum Sanctorum localizada em Nova York.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "209-88-5009",
+      "registro_chave": "DOCTOR-STRANGE-MAGIC",
+      "coordenadas_base": "49.0000° N, 89.0000° W"
+    }
+  },
+  {
+    "id": "marvel-010",
+    "editora": "Marvel Comics",
+    "nome_heroi": "Viúva Negra",
+    "nome_verdadeiro": "Natalia Alianovna Romanova (Natasha Romanoff)",
+    "equipe": "Vingadores",
+    "localizacao_residencia": "Nova York",
+    "base_secreta": "Base Segura S.H.I.E.L.D.",
+    "ocupacao_publica": "Espiã Mestre",
+    "poderes": [
+      "Artes marciais",
+      "Equipamento Red Room"
+    ],
+    "fraquezas": [
+      "Mortalidade humana"
+    ],
+    "biografia": "O herói Viúva Negra (identidade secreta: Natalia Alianovna Romanova (Natasha Romanoff)) protege a Terra operando a partir da base Base Segura S.H.I.E.L.D. localizada em Nova York.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "210-88-5010",
+      "registro_chave": "SHIELD-AGENT-ROMANOFF",
+      "coordenadas_base": "50.0000° N, 90.0000° W"
+    }
+  },
+  {
+    "id": "marvel-011",
+    "editora": "Marvel Comics",
+    "nome_heroi": "Gavião Arqueiro",
+    "nome_verdadeiro": "Clinton Francis Barton",
+    "equipe": "Vingadores",
+    "localizacao_residencia": "Iowa",
+    "base_secreta": "Fazenda Barton",
+    "ocupacao_publica": "Mestre Arqueiro",
+    "poderes": [
+      "Pontaria perfeita"
+    ],
+    "fraquezas": [
+      "Mortalidade humana"
+    ],
+    "biografia": "O herói Gavião Arqueiro (identidade secreta: Clinton Francis Barton) protege a Terra operando a partir da base Fazenda Barton localizada em Iowa.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "211-88-5011",
+      "registro_chave": "SSN-HAWKEYE-77112",
+      "coordenadas_base": "51.0000° N, 91.0000° W"
+    }
+  },
+  {
+    "id": "marvel-012",
+    "editora": "Marvel Comics",
+    "nome_heroi": "Feiticeira Escarlate",
+    "nome_verdadeiro": "Wanda Maximoff",
+    "equipe": "Vingadores",
+    "localizacao_residencia": "Westview",
+    "base_secreta": "Residência Maximoff",
+    "ocupacao_publica": "Maga do Caos",
+    "poderes": [
+      "Magia do Caos",
+      "Alteração da realidade"
+    ],
+    "fraquezas": [
+      "Instabilidade mental"
+    ],
+    "biografia": "O herói Feiticeira Escarlate (identidade secreta: Wanda Maximoff) protege a Terra operando a partir da base Residência Maximoff localizada em Westview.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "212-88-5012",
+      "registro_chave": "MAGIC-CHAOS-WANDA",
+      "coordenadas_base": "52.0000° N, 92.0000° W"
+    }
+  },
+  {
+    "id": "marvel-013",
+    "editora": "Marvel Comics",
+    "nome_heroi": "Visão",
+    "nome_verdadeiro": "Visão",
+    "equipe": "Vingadores",
+    "localizacao_residencia": "Nova York",
+    "base_secreta": "Complexo dos Vingadores",
+    "ocupacao_publica": "Sintetóide",
+    "poderes": [
+      "Jóia da Mente",
+      "Densidade variável"
+    ],
+    "fraquezas": [
+      "Desativação da Jóia"
+    ],
+    "biografia": "O herói Visão (identidade secreta: Visão) protege a Terra operando a partir da base Complexo dos Vingadores localizada em Nova York.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "213-88-5013",
+      "registro_chave": "SYNTHETOID-VISION-CORE",
+      "coordenadas_base": "53.0000° N, 93.0000° W"
+    }
+  },
+  {
+    "id": "marvel-014",
+    "editora": "Marvel Comics",
+    "nome_heroi": "Homem-Formiga",
+    "nome_verdadeiro": "Scott Edward Harris Lang",
+    "equipe": "Vingadores",
+    "localizacao_residencia": "San Francisco",
+    "base_secreta": "Laboratório Pym",
+    "ocupacao_publica": "Engenheiro Eletrônico",
+    "poderes": [
+      "Partículas Pym",
+      "Comunicação com formigas"
+    ],
+    "fraquezas": [
+      "Falha no traje Pym"
+    ],
+    "biografia": "O herói Homem-Formiga (identidade secreta: Scott Edward Harris Lang) protege a Terra operando a partir da base Laboratório Pym localizada em San Francisco.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "214-88-5014",
+      "registro_chave": "SSN-ANTMAN-99881",
+      "coordenadas_base": "54.0000° N, 94.0000° W"
+    }
+  },
+  {
+    "id": "marvel-015",
+    "editora": "Marvel Comics",
+    "nome_heroi": "Vespa",
+    "nome_verdadeiro": "Hope van Dyne",
+    "equipe": "Vingadores",
+    "localizacao_residencia": "San Francisco",
+    "base_secreta": "Laboratório Pym",
+    "ocupacao_publica": "Cientista",
+    "poderes": [
+      "Voo com asas Pym",
+      "Raios bio-elétricos"
+    ],
+    "fraquezas": [
+      "Falha no traje"
+    ],
+    "biografia": "O herói Vespa (identidade secreta: Hope van Dyne) protege a Terra operando a partir da base Laboratório Pym localizada em San Francisco.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "215-88-5015",
+      "registro_chave": "SSN-WASP-99882",
+      "coordenadas_base": "55.0000° N, 95.0000° W"
+    }
+  },
+  {
+    "id": "marvel-016",
+    "editora": "Marvel Comics",
+    "nome_heroi": "Capitã Marvel",
+    "nome_verdadeiro": "Carol Susan Jane Danvers",
+    "equipe": "Vingadores",
+    "localizacao_residencia": "Espaço / Los Angeles",
+    "base_secreta": "Nave Alfa Flight",
+    "ocupacao_publica": "Piloto de Caça / Herói Cosmico",
+    "poderes": [
+      "Energia fotônica",
+      "Voo à velocidade da luz"
+    ],
+    "fraquezas": [
+      "Absorção de energia limite"
+    ],
+    "biografia": "O herói Capitã Marvel (identidade secreta: Carol Susan Jane Danvers) protege a Terra operando a partir da base Nave Alfa Flight localizada em Espaço / Los Angeles.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "216-88-5016",
+      "registro_chave": "USAF-CAPTAIN-DANVERS",
+      "coordenadas_base": "56.0000° N, 96.0000° W"
+    }
+  },
+  {
+    "id": "marvel-017",
+    "editora": "Marvel Comics",
+    "nome_heroi": "Ciclope",
+    "nome_verdadeiro": "Scott Summers",
+    "equipe": "X-Men",
+    "localizacao_residencia": "Westchester",
+    "base_secreta": "Instituto Xavier",
+    "ocupacao_publica": "Líder dos X-Men",
+    "poderes": [
+      "Raios ópticos de energia concussiva"
+    ],
+    "fraquezas": [
+      "Perda do óculos de quartzo"
+    ],
+    "biografia": "O herói Ciclope (identidade secreta: Scott Summers) protege a Terra operando a partir da base Instituto Xavier localizada em Westchester.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "217-88-5017",
+      "registro_chave": "MUTANT-CYCLOPS-002",
+      "coordenadas_base": "57.0000° N, 97.0000° W"
+    }
+  },
+  {
+    "id": "marvel-018",
+    "editora": "Marvel Comics",
+    "nome_heroi": "Garota Marvel / Fênix",
+    "nome_verdadeiro": "Jean Grey",
+    "equipe": "X-Men",
+    "localizacao_residencia": "Westchester",
+    "base_secreta": "Instituto Xavier",
+    "ocupacao_publica": "Professora / Telepatas",
+    "poderes": [
+      "Telepatia nível Ômega",
+      "Força Fênix"
+    ],
+    "fraquezas": [
+      "Sobrecarga da Fênix"
+    ],
+    "biografia": "O herói Garota Marvel / Fênix (identidade secreta: Jean Grey) protege a Terra operando a partir da base Instituto Xavier localizada em Westchester.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "218-88-5018",
+      "registro_chave": "MUTANT-JEAN-003",
+      "coordenadas_base": "58.0000° N, 98.0000° W"
+    }
+  },
+  {
+    "id": "marvel-019",
+    "editora": "Marvel Comics",
+    "nome_heroi": "Vampira",
+    "nome_verdadeiro": "Anna Marie LeBeau",
+    "equipe": "X-Men",
+    "localizacao_residencia": "Caldecott",
+    "base_secreta": "Instituto Xavier",
+    "ocupacao_publica": "Membro dos X-Men",
+    "poderes": [
+      "Absorção de poderes e memórias"
+    ],
+    "fraquezas": [
+      "Incapacidade de toque físico"
+    ],
+    "biografia": "O herói Vampira (identidade secreta: Anna Marie LeBeau) protege a Terra operando a partir da base Instituto Xavier localizada em Caldecott.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "219-88-5019",
+      "registro_chave": "MUTANT-ROGUE-004",
+      "coordenadas_base": "59.0000° N, 99.0000° W"
+    }
+  },
+  {
+    "id": "marvel-020",
+    "editora": "Marvel Comics",
+    "nome_heroi": "Gambit",
+    "nome_verdadeiro": "Remy Etienne LeBeau",
+    "equipe": "X-Men",
+    "localizacao_residencia": "New Orleans",
+    "base_secreta": "Instituto Xavier",
+    "ocupacao_publica": "Ladrão / Herói",
+    "poderes": [
+      "Conversão de energia cinética"
+    ],
+    "fraquezas": [
+      "Aulas de energia limitadas"
+    ],
+    "biografia": "O herói Gambit (identidade secreta: Remy Etienne LeBeau) protege a Terra operando a partir da base Instituto Xavier localizada em New Orleans.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "220-88-5020",
+      "registro_chave": "MUTANT-GAMBIT-005",
+      "coordenadas_base": "40.0000° N, 100.0000° W"
+    }
+  },
+  {
+    "id": "marvel-021",
+    "editora": "Marvel Comics",
+    "nome_heroi": "Tempestade",
+    "nome_verdadeiro": "Ororo Munroe",
+    "equipe": "X-Men",
+    "localizacao_residencia": "Cairo / Westchester",
+    "base_secreta": "Instituto Xavier",
+    "ocupacao_publica": "Sacerdotisa / Professora",
+    "poderes": [
+      "Manipulação do clima nível Ômega"
+    ],
+    "fraquezas": [
+      "Claustrofobia"
+    ],
+    "biografia": "O herói Tempestade (identidade secreta: Ororo Munroe) protege a Terra operando a partir da base Instituto Xavier localizada em Cairo / Westchester.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "221-88-5021",
+      "registro_chave": "MUTANT-STORM-006",
+      "coordenadas_base": "41.0000° N, 101.0000° W"
+    }
+  },
+  {
+    "id": "marvel-022",
+    "editora": "Marvel Comics",
+    "nome_heroi": "Fera",
+    "nome_verdadeiro": "Henry Philip McCoy",
+    "equipe": "X-Men",
+    "localizacao_residencia": "Dunellen",
+    "base_secreta": "Instituto Xavier",
+    "ocupacao_publica": "Bioquímico",
+    "poderes": [
+      "Superforça",
+      "Intelecto gênio científico"
+    ],
+    "fraquezas": [
+      "Mutação regressiva"
+    ],
+    "biografia": "O herói Fera (identidade secreta: Henry Philip McCoy) protege a Terra operando a partir da base Instituto Xavier localizada em Dunellen.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "222-88-5022",
+      "registro_chave": "MUTANT-BEAST-007",
+      "coordenadas_base": "42.0000° N, 102.0000° W"
+    }
+  },
+  {
+    "id": "marvel-023",
+    "editora": "Marvel Comics",
+    "nome_heroi": "Homem de Gelo",
+    "nome_verdadeiro": "Robert Louis Drake",
+    "equipe": "X-Men",
+    "localizacao_residencia": "Floral Park",
+    "base_secreta": "Instituto Xavier",
+    "ocupacao_publica": "Contador",
+    "poderes": [
+      "Criocinese nível Ômega"
+    ],
+    "fraquezas": [
+      "Calor extremo sustentado"
+    ],
+    "biografia": "O herói Homem de Gelo (identidade secreta: Robert Louis Drake) protege a Terra operando a partir da base Instituto Xavier localizada em Floral Park.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "223-88-5023",
+      "registro_chave": "MUTANT-ICEMAN-008",
+      "coordenadas_base": "43.0000° N, 103.0000° W"
+    }
+  },
+  {
+    "id": "marvel-024",
+    "editora": "Marvel Comics",
+    "nome_heroi": "Noturno",
+    "nome_verdadeiro": "Kurt Wagner",
+    "equipe": "X-Men",
+    "localizacao_residencia": "Bavaria",
+    "base_secreta": "Instituto Xavier",
+    "ocupacao_publica": "Acrobata",
+    "poderes": [
+      "Teletransporte dimensional"
+    ],
+    "fraquezas": [
+      "Necessidade de linha de visão"
+    ],
+    "biografia": "O herói Noturno (identidade secreta: Kurt Wagner) protege a Terra operando a partir da base Instituto Xavier localizada em Bavaria.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "224-88-5024",
+      "registro_chave": "MUTANT-NIGHTCRAWLER-009",
+      "coordenadas_base": "44.0000° N, 104.0000° W"
+    }
+  },
+  {
+    "id": "marvel-025",
+    "editora": "Marvel Comics",
+    "nome_heroi": "Colossus",
+    "nome_verdadeiro": "Piotr Nikolaievitch Rasputin",
+    "equipe": "X-Men",
+    "localizacao_residencia": "Siberia",
+    "base_secreta": "Instituto Xavier",
+    "ocupacao_publica": "Artista / Agricultor",
+    "poderes": [
+      "Transformação em aço orgânico"
+    ],
+    "fraquezas": [
+      "Vulnerabilidade na forma humana"
+    ],
+    "biografia": "O herói Colossus (identidade secreta: Piotr Nikolaievitch Rasputin) protege a Terra operando a partir da base Instituto Xavier localizada em Siberia.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "225-88-5025",
+      "registro_chave": "MUTANT-COLOSSUS-010",
+      "coordenadas_base": "45.0000° N, 105.0000° W"
+    }
+  },
+  {
+    "id": "marvel-026",
+    "editora": "Marvel Comics",
+    "nome_heroi": "Homem-Aranha-v26",
+    "nome_verdadeiro": "Peter Benjamin Parker",
+    "equipe": "Vingadores",
+    "localizacao_residencia": "Queens, Nova York",
+    "base_secreta": "Apartamento no Queens",
+    "ocupacao_publica": "Fotógrafo Freelancer",
+    "poderes": [
+      "Sentido Aranha",
+      "Escalar paredes"
+    ],
+    "fraquezas": [
+      "Mortalidade humana"
+    ],
+    "biografia": "O herói Homem-Aranha-v26 (identidade secreta: Peter Benjamin Parker) protege a Terra operando a partir da base Apartamento no Queens localizada em Queens, Nova York.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "226-88-5026",
+      "registro_chave": "SSN-SPIDEY-11900",
+      "coordenadas_base": "46.0000° N, 106.0000° W"
+    }
+  },
+  {
+    "id": "marvel-027",
+    "editora": "Marvel Comics",
+    "nome_heroi": "Homem de Ferro-v27",
+    "nome_verdadeiro": "Anthony Edward Stark",
+    "equipe": "Vingadores",
+    "localizacao_residencia": "Malibu, Califórnia",
+    "base_secreta": "Torre dos Vingadores",
+    "ocupacao_publica": "CEO na Stark Industries",
+    "poderes": [
+      "Intelecto gênio",
+      "Armadura Mark"
+    ],
+    "fraquezas": [
+      "Sem armadura"
+    ],
+    "biografia": "O herói Homem de Ferro-v27 (identidade secreta: Anthony Edward Stark) protege a Terra operando a partir da base Torre dos Vingadores localizada em Malibu, Califórnia.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "227-88-5027",
+      "registro_chave": "STARK-IND-SWISS-01",
+      "coordenadas_base": "47.0000° N, 107.0000° W"
+    }
+  },
+  {
+    "id": "marvel-028",
+    "editora": "Marvel Comics",
+    "nome_heroi": "Capitão América-v28",
+    "nome_verdadeiro": "Steven Grant Rogers",
+    "equipe": "Vingadores",
+    "localizacao_residencia": "Brooklyn, Nova York",
+    "base_secreta": "Instalações da S.H.I.E.L.D.",
+    "ocupacao_publica": "Militar",
+    "poderes": [
+      "Super-Soldado",
+      "Escudo de Vibranium"
+    ],
+    "fraquezas": [
+      "Mortalidade física"
+    ],
+    "biografia": "O herói Capitão América-v28 (identidade secreta: Steven Grant Rogers) protege a Terra operando a partir da base Instalações da S.H.I.E.L.D. localizada em Brooklyn, Nova York.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "228-88-5028",
+      "registro_chave": "SSN-CAP-33411",
+      "coordenadas_base": "48.0000° N, 108.0000° W"
+    }
+  },
+  {
+    "id": "marvel-029",
+    "editora": "Marvel Comics",
+    "nome_heroi": "Wolverine-v29",
+    "nome_verdadeiro": "James Howlett (Logan)",
+    "equipe": "X-Men",
+    "localizacao_residencia": "Westchester, Nova York",
+    "base_secreta": "Instituto Xavier",
+    "ocupacao_publica": "Instrutor de Combate",
+    "poderes": [
+      "Fator de cura",
+      "Adamantium"
+    ],
+    "fraquezas": [
+      "Espada Muramasa"
+    ],
+    "biografia": "O herói Wolverine-v29 (identidade secreta: James Howlett (Logan)) protege a Terra operando a partir da base Instituto Xavier localizada em Westchester, Nova York.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "229-88-5029",
+      "registro_chave": "MUTANT-LOGAN-001",
+      "coordenadas_base": "49.0000° N, 109.0000° W"
+    }
+  },
+  {
+    "id": "marvel-030",
+    "editora": "Marvel Comics",
+    "nome_heroi": "Demolidor-v30",
+    "nome_verdadeiro": "Matthew Michael Murdock",
+    "equipe": "Defensores",
+    "localizacao_residencia": "Hell's Kitchen, Nova York",
+    "base_secreta": "Escritório Nelson & Murdock",
+    "ocupacao_publica": "Advogado",
+    "poderes": [
+      "Radar biológico",
+      "Sentidos aguçados"
+    ],
+    "fraquezas": [
+      "Sobrecarga auditiva"
+    ],
+    "biografia": "O herói Demolidor-v30 (identidade secreta: Matthew Michael Murdock) protege a Terra operando a partir da base Escritório Nelson & Murdock localizada em Hell's Kitchen, Nova York.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "230-88-5030",
+      "registro_chave": "SSN-DAREDEVIL-441",
+      "coordenadas_base": "50.0000° N, 80.0000° W"
+    }
+  },
+  {
+    "id": "marvel-031",
+    "editora": "Marvel Comics",
+    "nome_heroi": "Thor-v31",
+    "nome_verdadeiro": "Thor Odinson",
+    "equipe": "Vingadores",
+    "localizacao_residencia": "Nova Asgard",
+    "base_secreta": "Palácio Real de Asgard",
+    "ocupacao_publica": "Deus do Trovão",
+    "poderes": [
+      "Controle de trovões",
+      "Mjolnir"
+    ],
+    "fraquezas": [
+      "Orgulho"
+    ],
+    "biografia": "O herói Thor-v31 (identidade secreta: Thor Odinson) protege a Terra operando a partir da base Palácio Real de Asgard localizada em Nova Asgard.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "231-88-5031",
+      "registro_chave": "ASGARD-ROYAL-THOR",
+      "coordenadas_base": "51.0000° N, 81.0000° W"
+    }
+  },
+  {
+    "id": "marvel-032",
+    "editora": "Marvel Comics",
+    "nome_heroi": "Hulk-v32",
+    "nome_verdadeiro": "Robert Bruce Banner",
+    "equipe": "Vingadores",
+    "localizacao_residencia": "Dayton, Ohio",
+    "base_secreta": "Laboratório Móvel",
+    "ocupacao_publica": "Físico Nuclear",
+    "poderes": [
+      "Força física ilimitada",
+      "Radiação Gama"
+    ],
+    "fraquezas": [
+      "Perda de controle"
+    ],
+    "biografia": "O herói Hulk-v32 (identidade secreta: Robert Bruce Banner) protege a Terra operando a partir da base Laboratório Móvel localizada em Dayton, Ohio.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "232-88-5032",
+      "registro_chave": "SSN-HULK-55100",
+      "coordenadas_base": "52.0000° N, 82.0000° W"
+    }
+  },
+  {
+    "id": "marvel-033",
+    "editora": "Marvel Comics",
+    "nome_heroi": "Pantera Negra-v33",
+    "nome_verdadeiro": "T'Challa",
+    "equipe": "Vingadores",
+    "localizacao_residencia": "Birnin Zana",
+    "base_secreta": "Palácio Real de Wakanda",
+    "ocupacao_publica": "Rei de Wakanda",
+    "poderes": [
+      "Erva Coração",
+      "Traje de Vibranium"
+    ],
+    "fraquezas": [
+      "Mortalidade humana"
+    ],
+    "biografia": "O herói Pantera Negra-v33 (identidade secreta: T'Challa) protege a Terra operando a partir da base Palácio Real de Wakanda localizada em Birnin Zana.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "233-88-5033",
+      "registro_chave": "WAKANDA-ROYAL-TCHALLA",
+      "coordenadas_base": "53.0000° N, 83.0000° W"
+    }
+  },
+  {
+    "id": "marvel-034",
+    "editora": "Marvel Comics",
+    "nome_heroi": "Doutor Estranho-v34",
+    "nome_verdadeiro": "Stephen Vincent Strange",
+    "equipe": "Vingadores",
+    "localizacao_residencia": "Nova York",
+    "base_secreta": "Sanctum Sanctorum",
+    "ocupacao_publica": "Mago Supremo / Cirurgião",
+    "poderes": [
+      "Artes Místicas",
+      "Olho de Agamotto"
+    ],
+    "fraquezas": [
+      "Dano físico às mãos"
+    ],
+    "biografia": "O herói Doutor Estranho-v34 (identidade secreta: Stephen Vincent Strange) protege a Terra operando a partir da base Sanctum Sanctorum localizada em Nova York.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "234-88-5034",
+      "registro_chave": "DOCTOR-STRANGE-MAGIC",
+      "coordenadas_base": "54.0000° N, 84.0000° W"
+    }
+  },
+  {
+    "id": "marvel-035",
+    "editora": "Marvel Comics",
+    "nome_heroi": "Viúva Negra-v35",
+    "nome_verdadeiro": "Natalia Alianovna Romanova (Natasha Romanoff)",
+    "equipe": "Vingadores",
+    "localizacao_residencia": "Nova York",
+    "base_secreta": "Base Segura S.H.I.E.L.D.",
+    "ocupacao_publica": "Espiã Mestre",
+    "poderes": [
+      "Artes marciais",
+      "Equipamento Red Room"
+    ],
+    "fraquezas": [
+      "Mortalidade humana"
+    ],
+    "biografia": "O herói Viúva Negra-v35 (identidade secreta: Natalia Alianovna Romanova (Natasha Romanoff)) protege a Terra operando a partir da base Base Segura S.H.I.E.L.D. localizada em Nova York.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "235-88-5035",
+      "registro_chave": "SHIELD-AGENT-ROMANOFF",
+      "coordenadas_base": "55.0000° N, 85.0000° W"
+    }
+  },
+  {
+    "id": "marvel-036",
+    "editora": "Marvel Comics",
+    "nome_heroi": "Gavião Arqueiro-v36",
+    "nome_verdadeiro": "Clinton Francis Barton",
+    "equipe": "Vingadores",
+    "localizacao_residencia": "Iowa",
+    "base_secreta": "Fazenda Barton",
+    "ocupacao_publica": "Mestre Arqueiro",
+    "poderes": [
+      "Pontaria perfeita"
+    ],
+    "fraquezas": [
+      "Mortalidade humana"
+    ],
+    "biografia": "O herói Gavião Arqueiro-v36 (identidade secreta: Clinton Francis Barton) protege a Terra operando a partir da base Fazenda Barton localizada em Iowa.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "236-88-5036",
+      "registro_chave": "SSN-HAWKEYE-77112",
+      "coordenadas_base": "56.0000° N, 86.0000° W"
+    }
+  },
+  {
+    "id": "marvel-037",
+    "editora": "Marvel Comics",
+    "nome_heroi": "Feiticeira Escarlate-v37",
+    "nome_verdadeiro": "Wanda Maximoff",
+    "equipe": "Vingadores",
+    "localizacao_residencia": "Westview",
+    "base_secreta": "Residência Maximoff",
+    "ocupacao_publica": "Maga do Caos",
+    "poderes": [
+      "Magia do Caos",
+      "Alteração da realidade"
+    ],
+    "fraquezas": [
+      "Instabilidade mental"
+    ],
+    "biografia": "O herói Feiticeira Escarlate-v37 (identidade secreta: Wanda Maximoff) protege a Terra operando a partir da base Residência Maximoff localizada em Westview.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "237-88-5037",
+      "registro_chave": "MAGIC-CHAOS-WANDA",
+      "coordenadas_base": "57.0000° N, 87.0000° W"
+    }
+  },
+  {
+    "id": "marvel-038",
+    "editora": "Marvel Comics",
+    "nome_heroi": "Visão-v38",
+    "nome_verdadeiro": "Visão",
+    "equipe": "Vingadores",
+    "localizacao_residencia": "Nova York",
+    "base_secreta": "Complexo dos Vingadores",
+    "ocupacao_publica": "Sintetóide",
+    "poderes": [
+      "Jóia da Mente",
+      "Densidade variável"
+    ],
+    "fraquezas": [
+      "Desativação da Jóia"
+    ],
+    "biografia": "O herói Visão-v38 (identidade secreta: Visão) protege a Terra operando a partir da base Complexo dos Vingadores localizada em Nova York.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "238-88-5038",
+      "registro_chave": "SYNTHETOID-VISION-CORE",
+      "coordenadas_base": "58.0000° N, 88.0000° W"
+    }
+  },
+  {
+    "id": "marvel-039",
+    "editora": "Marvel Comics",
+    "nome_heroi": "Homem-Formiga-v39",
+    "nome_verdadeiro": "Scott Edward Harris Lang",
+    "equipe": "Vingadores",
+    "localizacao_residencia": "San Francisco",
+    "base_secreta": "Laboratório Pym",
+    "ocupacao_publica": "Engenheiro Eletrônico",
+    "poderes": [
+      "Partículas Pym",
+      "Comunicação com formigas"
+    ],
+    "fraquezas": [
+      "Falha no traje Pym"
+    ],
+    "biografia": "O herói Homem-Formiga-v39 (identidade secreta: Scott Edward Harris Lang) protege a Terra operando a partir da base Laboratório Pym localizada em San Francisco.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "239-88-5039",
+      "registro_chave": "SSN-ANTMAN-99881",
+      "coordenadas_base": "59.0000° N, 89.0000° W"
+    }
+  },
+  {
+    "id": "marvel-040",
+    "editora": "Marvel Comics",
+    "nome_heroi": "Vespa-v40",
+    "nome_verdadeiro": "Hope van Dyne",
+    "equipe": "Vingadores",
+    "localizacao_residencia": "San Francisco",
+    "base_secreta": "Laboratório Pym",
+    "ocupacao_publica": "Cientista",
+    "poderes": [
+      "Voo com asas Pym",
+      "Raios bio-elétricos"
+    ],
+    "fraquezas": [
+      "Falha no traje"
+    ],
+    "biografia": "O herói Vespa-v40 (identidade secreta: Hope van Dyne) protege a Terra operando a partir da base Laboratório Pym localizada em San Francisco.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "240-88-5040",
+      "registro_chave": "SSN-WASP-99882",
+      "coordenadas_base": "40.0000° N, 90.0000° W"
+    }
+  },
+  {
+    "id": "marvel-041",
+    "editora": "Marvel Comics",
+    "nome_heroi": "Capitã Marvel-v41",
+    "nome_verdadeiro": "Carol Susan Jane Danvers",
+    "equipe": "Vingadores",
+    "localizacao_residencia": "Espaço / Los Angeles",
+    "base_secreta": "Nave Alfa Flight",
+    "ocupacao_publica": "Piloto de Caça / Herói Cosmico",
+    "poderes": [
+      "Energia fotônica",
+      "Voo à velocidade da luz"
+    ],
+    "fraquezas": [
+      "Absorção de energia limite"
+    ],
+    "biografia": "O herói Capitã Marvel-v41 (identidade secreta: Carol Susan Jane Danvers) protege a Terra operando a partir da base Nave Alfa Flight localizada em Espaço / Los Angeles.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "241-88-5041",
+      "registro_chave": "USAF-CAPTAIN-DANVERS",
+      "coordenadas_base": "41.0000° N, 91.0000° W"
+    }
+  },
+  {
+    "id": "marvel-042",
+    "editora": "Marvel Comics",
+    "nome_heroi": "Ciclope-v42",
+    "nome_verdadeiro": "Scott Summers",
+    "equipe": "X-Men",
+    "localizacao_residencia": "Westchester",
+    "base_secreta": "Instituto Xavier",
+    "ocupacao_publica": "Líder dos X-Men",
+    "poderes": [
+      "Raios ópticos de energia concussiva"
+    ],
+    "fraquezas": [
+      "Perda do óculos de quartzo"
+    ],
+    "biografia": "O herói Ciclope-v42 (identidade secreta: Scott Summers) protege a Terra operando a partir da base Instituto Xavier localizada em Westchester.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "242-88-5042",
+      "registro_chave": "MUTANT-CYCLOPS-002",
+      "coordenadas_base": "42.0000° N, 92.0000° W"
+    }
+  },
+  {
+    "id": "marvel-043",
+    "editora": "Marvel Comics",
+    "nome_heroi": "Garota Marvel / Fênix-v43",
+    "nome_verdadeiro": "Jean Grey",
+    "equipe": "X-Men",
+    "localizacao_residencia": "Westchester",
+    "base_secreta": "Instituto Xavier",
+    "ocupacao_publica": "Professora / Telepatas",
+    "poderes": [
+      "Telepatia nível Ômega",
+      "Força Fênix"
+    ],
+    "fraquezas": [
+      "Sobrecarga da Fênix"
+    ],
+    "biografia": "O herói Garota Marvel / Fênix-v43 (identidade secreta: Jean Grey) protege a Terra operando a partir da base Instituto Xavier localizada em Westchester.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "243-88-5043",
+      "registro_chave": "MUTANT-JEAN-003",
+      "coordenadas_base": "43.0000° N, 93.0000° W"
+    }
+  },
+  {
+    "id": "marvel-044",
+    "editora": "Marvel Comics",
+    "nome_heroi": "Vampira-v44",
+    "nome_verdadeiro": "Anna Marie LeBeau",
+    "equipe": "X-Men",
+    "localizacao_residencia": "Caldecott",
+    "base_secreta": "Instituto Xavier",
+    "ocupacao_publica": "Membro dos X-Men",
+    "poderes": [
+      "Absorção de poderes e memórias"
+    ],
+    "fraquezas": [
+      "Incapacidade de toque físico"
+    ],
+    "biografia": "O herói Vampira-v44 (identidade secreta: Anna Marie LeBeau) protege a Terra operando a partir da base Instituto Xavier localizada em Caldecott.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "244-88-5044",
+      "registro_chave": "MUTANT-ROGUE-004",
+      "coordenadas_base": "44.0000° N, 94.0000° W"
+    }
+  },
+  {
+    "id": "marvel-045",
+    "editora": "Marvel Comics",
+    "nome_heroi": "Gambit-v45",
+    "nome_verdadeiro": "Remy Etienne LeBeau",
+    "equipe": "X-Men",
+    "localizacao_residencia": "New Orleans",
+    "base_secreta": "Instituto Xavier",
+    "ocupacao_publica": "Ladrão / Herói",
+    "poderes": [
+      "Conversão de energia cinética"
+    ],
+    "fraquezas": [
+      "Aulas de energia limitadas"
+    ],
+    "biografia": "O herói Gambit-v45 (identidade secreta: Remy Etienne LeBeau) protege a Terra operando a partir da base Instituto Xavier localizada em New Orleans.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "245-88-5045",
+      "registro_chave": "MUTANT-GAMBIT-005",
+      "coordenadas_base": "45.0000° N, 95.0000° W"
+    }
+  },
+  {
+    "id": "marvel-046",
+    "editora": "Marvel Comics",
+    "nome_heroi": "Tempestade-v46",
+    "nome_verdadeiro": "Ororo Munroe",
+    "equipe": "X-Men",
+    "localizacao_residencia": "Cairo / Westchester",
+    "base_secreta": "Instituto Xavier",
+    "ocupacao_publica": "Sacerdotisa / Professora",
+    "poderes": [
+      "Manipulação do clima nível Ômega"
+    ],
+    "fraquezas": [
+      "Claustrofobia"
+    ],
+    "biografia": "O herói Tempestade-v46 (identidade secreta: Ororo Munroe) protege a Terra operando a partir da base Instituto Xavier localizada em Cairo / Westchester.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "246-88-5046",
+      "registro_chave": "MUTANT-STORM-006",
+      "coordenadas_base": "46.0000° N, 96.0000° W"
+    }
+  },
+  {
+    "id": "marvel-047",
+    "editora": "Marvel Comics",
+    "nome_heroi": "Fera-v47",
+    "nome_verdadeiro": "Henry Philip McCoy",
+    "equipe": "X-Men",
+    "localizacao_residencia": "Dunellen",
+    "base_secreta": "Instituto Xavier",
+    "ocupacao_publica": "Bioquímico",
+    "poderes": [
+      "Superforça",
+      "Intelecto gênio científico"
+    ],
+    "fraquezas": [
+      "Mutação regressiva"
+    ],
+    "biografia": "O herói Fera-v47 (identidade secreta: Henry Philip McCoy) protege a Terra operando a partir da base Instituto Xavier localizada em Dunellen.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "247-88-5047",
+      "registro_chave": "MUTANT-BEAST-007",
+      "coordenadas_base": "47.0000° N, 97.0000° W"
+    }
+  },
+  {
+    "id": "marvel-048",
+    "editora": "Marvel Comics",
+    "nome_heroi": "Homem de Gelo-v48",
+    "nome_verdadeiro": "Robert Louis Drake",
+    "equipe": "X-Men",
+    "localizacao_residencia": "Floral Park",
+    "base_secreta": "Instituto Xavier",
+    "ocupacao_publica": "Contador",
+    "poderes": [
+      "Criocinese nível Ômega"
+    ],
+    "fraquezas": [
+      "Calor extremo sustentado"
+    ],
+    "biografia": "O herói Homem de Gelo-v48 (identidade secreta: Robert Louis Drake) protege a Terra operando a partir da base Instituto Xavier localizada em Floral Park.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "248-88-5048",
+      "registro_chave": "MUTANT-ICEMAN-008",
+      "coordenadas_base": "48.0000° N, 98.0000° W"
+    }
+  },
+  {
+    "id": "marvel-049",
+    "editora": "Marvel Comics",
+    "nome_heroi": "Noturno-v49",
+    "nome_verdadeiro": "Kurt Wagner",
+    "equipe": "X-Men",
+    "localizacao_residencia": "Bavaria",
+    "base_secreta": "Instituto Xavier",
+    "ocupacao_publica": "Acrobata",
+    "poderes": [
+      "Teletransporte dimensional"
+    ],
+    "fraquezas": [
+      "Necessidade de linha de visão"
+    ],
+    "biografia": "O herói Noturno-v49 (identidade secreta: Kurt Wagner) protege a Terra operando a partir da base Instituto Xavier localizada em Bavaria.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "249-88-5049",
+      "registro_chave": "MUTANT-NIGHTCRAWLER-009",
+      "coordenadas_base": "49.0000° N, 99.0000° W"
+    }
+  },
+  {
+    "id": "marvel-050",
+    "editora": "Marvel Comics",
+    "nome_heroi": "Colossus-v50",
+    "nome_verdadeiro": "Piotr Nikolaievitch Rasputin",
+    "equipe": "X-Men",
+    "localizacao_residencia": "Siberia",
+    "base_secreta": "Instituto Xavier",
+    "ocupacao_publica": "Artista / Agricultor",
+    "poderes": [
+      "Transformação em aço orgânico"
+    ],
+    "fraquezas": [
+      "Vulnerabilidade na forma humana"
+    ],
+    "biografia": "O herói Colossus-v50 (identidade secreta: Piotr Nikolaievitch Rasputin) protege a Terra operando a partir da base Instituto Xavier localizada em Siberia.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "250-88-5050",
+      "registro_chave": "MUTANT-COLOSSUS-010",
+      "coordenadas_base": "50.0000° N, 100.0000° W"
+    }
+  },
+  {
+    "id": "marvel-051",
+    "editora": "Marvel Comics",
+    "nome_heroi": "Homem-Aranha-v51",
+    "nome_verdadeiro": "Peter Benjamin Parker",
+    "equipe": "Vingadores",
+    "localizacao_residencia": "Queens, Nova York",
+    "base_secreta": "Apartamento no Queens",
+    "ocupacao_publica": "Fotógrafo Freelancer",
+    "poderes": [
+      "Sentido Aranha",
+      "Escalar paredes"
+    ],
+    "fraquezas": [
+      "Mortalidade humana"
+    ],
+    "biografia": "O herói Homem-Aranha-v51 (identidade secreta: Peter Benjamin Parker) protege a Terra operando a partir da base Apartamento no Queens localizada em Queens, Nova York.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "251-88-5051",
+      "registro_chave": "SSN-SPIDEY-11900",
+      "coordenadas_base": "51.0000° N, 101.0000° W"
+    }
+  },
+  {
+    "id": "marvel-052",
+    "editora": "Marvel Comics",
+    "nome_heroi": "Homem de Ferro-v52",
+    "nome_verdadeiro": "Anthony Edward Stark",
+    "equipe": "Vingadores",
+    "localizacao_residencia": "Malibu, Califórnia",
+    "base_secreta": "Torre dos Vingadores",
+    "ocupacao_publica": "CEO na Stark Industries",
+    "poderes": [
+      "Intelecto gênio",
+      "Armadura Mark"
+    ],
+    "fraquezas": [
+      "Sem armadura"
+    ],
+    "biografia": "O herói Homem de Ferro-v52 (identidade secreta: Anthony Edward Stark) protege a Terra operando a partir da base Torre dos Vingadores localizada em Malibu, Califórnia.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "252-88-5052",
+      "registro_chave": "STARK-IND-SWISS-01",
+      "coordenadas_base": "52.0000° N, 102.0000° W"
+    }
+  },
+  {
+    "id": "marvel-053",
+    "editora": "Marvel Comics",
+    "nome_heroi": "Capitão América-v53",
+    "nome_verdadeiro": "Steven Grant Rogers",
+    "equipe": "Vingadores",
+    "localizacao_residencia": "Brooklyn, Nova York",
+    "base_secreta": "Instalações da S.H.I.E.L.D.",
+    "ocupacao_publica": "Militar",
+    "poderes": [
+      "Super-Soldado",
+      "Escudo de Vibranium"
+    ],
+    "fraquezas": [
+      "Mortalidade física"
+    ],
+    "biografia": "O herói Capitão América-v53 (identidade secreta: Steven Grant Rogers) protege a Terra operando a partir da base Instalações da S.H.I.E.L.D. localizada em Brooklyn, Nova York.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "253-88-5053",
+      "registro_chave": "SSN-CAP-33411",
+      "coordenadas_base": "53.0000° N, 103.0000° W"
+    }
+  },
+  {
+    "id": "marvel-054",
+    "editora": "Marvel Comics",
+    "nome_heroi": "Wolverine-v54",
+    "nome_verdadeiro": "James Howlett (Logan)",
+    "equipe": "X-Men",
+    "localizacao_residencia": "Westchester, Nova York",
+    "base_secreta": "Instituto Xavier",
+    "ocupacao_publica": "Instrutor de Combate",
+    "poderes": [
+      "Fator de cura",
+      "Adamantium"
+    ],
+    "fraquezas": [
+      "Espada Muramasa"
+    ],
+    "biografia": "O herói Wolverine-v54 (identidade secreta: James Howlett (Logan)) protege a Terra operando a partir da base Instituto Xavier localizada em Westchester, Nova York.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "254-88-5054",
+      "registro_chave": "MUTANT-LOGAN-001",
+      "coordenadas_base": "54.0000° N, 104.0000° W"
+    }
+  },
+  {
+    "id": "marvel-055",
+    "editora": "Marvel Comics",
+    "nome_heroi": "Demolidor-v55",
+    "nome_verdadeiro": "Matthew Michael Murdock",
+    "equipe": "Defensores",
+    "localizacao_residencia": "Hell's Kitchen, Nova York",
+    "base_secreta": "Escritório Nelson & Murdock",
+    "ocupacao_publica": "Advogado",
+    "poderes": [
+      "Radar biológico",
+      "Sentidos aguçados"
+    ],
+    "fraquezas": [
+      "Sobrecarga auditiva"
+    ],
+    "biografia": "O herói Demolidor-v55 (identidade secreta: Matthew Michael Murdock) protege a Terra operando a partir da base Escritório Nelson & Murdock localizada em Hell's Kitchen, Nova York.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "255-88-5055",
+      "registro_chave": "SSN-DAREDEVIL-441",
+      "coordenadas_base": "55.0000° N, 105.0000° W"
+    }
+  },
+  {
+    "id": "marvel-056",
+    "editora": "Marvel Comics",
+    "nome_heroi": "Thor-v56",
+    "nome_verdadeiro": "Thor Odinson",
+    "equipe": "Vingadores",
+    "localizacao_residencia": "Nova Asgard",
+    "base_secreta": "Palácio Real de Asgard",
+    "ocupacao_publica": "Deus do Trovão",
+    "poderes": [
+      "Controle de trovões",
+      "Mjolnir"
+    ],
+    "fraquezas": [
+      "Orgulho"
+    ],
+    "biografia": "O herói Thor-v56 (identidade secreta: Thor Odinson) protege a Terra operando a partir da base Palácio Real de Asgard localizada em Nova Asgard.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "256-88-5056",
+      "registro_chave": "ASGARD-ROYAL-THOR",
+      "coordenadas_base": "56.0000° N, 106.0000° W"
+    }
+  },
+  {
+    "id": "marvel-057",
+    "editora": "Marvel Comics",
+    "nome_heroi": "Hulk-v57",
+    "nome_verdadeiro": "Robert Bruce Banner",
+    "equipe": "Vingadores",
+    "localizacao_residencia": "Dayton, Ohio",
+    "base_secreta": "Laboratório Móvel",
+    "ocupacao_publica": "Físico Nuclear",
+    "poderes": [
+      "Força física ilimitada",
+      "Radiação Gama"
+    ],
+    "fraquezas": [
+      "Perda de controle"
+    ],
+    "biografia": "O herói Hulk-v57 (identidade secreta: Robert Bruce Banner) protege a Terra operando a partir da base Laboratório Móvel localizada em Dayton, Ohio.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "257-88-5057",
+      "registro_chave": "SSN-HULK-55100",
+      "coordenadas_base": "57.0000° N, 107.0000° W"
+    }
+  },
+  {
+    "id": "marvel-058",
+    "editora": "Marvel Comics",
+    "nome_heroi": "Pantera Negra-v58",
+    "nome_verdadeiro": "T'Challa",
+    "equipe": "Vingadores",
+    "localizacao_residencia": "Birnin Zana",
+    "base_secreta": "Palácio Real de Wakanda",
+    "ocupacao_publica": "Rei de Wakanda",
+    "poderes": [
+      "Erva Coração",
+      "Traje de Vibranium"
+    ],
+    "fraquezas": [
+      "Mortalidade humana"
+    ],
+    "biografia": "O herói Pantera Negra-v58 (identidade secreta: T'Challa) protege a Terra operando a partir da base Palácio Real de Wakanda localizada em Birnin Zana.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "258-88-5058",
+      "registro_chave": "WAKANDA-ROYAL-TCHALLA",
+      "coordenadas_base": "58.0000° N, 108.0000° W"
+    }
+  },
+  {
+    "id": "marvel-059",
+    "editora": "Marvel Comics",
+    "nome_heroi": "Doutor Estranho-v59",
+    "nome_verdadeiro": "Stephen Vincent Strange",
+    "equipe": "Vingadores",
+    "localizacao_residencia": "Nova York",
+    "base_secreta": "Sanctum Sanctorum",
+    "ocupacao_publica": "Mago Supremo / Cirurgião",
+    "poderes": [
+      "Artes Místicas",
+      "Olho de Agamotto"
+    ],
+    "fraquezas": [
+      "Dano físico às mãos"
+    ],
+    "biografia": "O herói Doutor Estranho-v59 (identidade secreta: Stephen Vincent Strange) protege a Terra operando a partir da base Sanctum Sanctorum localizada em Nova York.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "259-88-5059",
+      "registro_chave": "DOCTOR-STRANGE-MAGIC",
+      "coordenadas_base": "59.0000° N, 109.0000° W"
+    }
+  },
+  {
+    "id": "marvel-060",
+    "editora": "Marvel Comics",
+    "nome_heroi": "Viúva Negra-v60",
+    "nome_verdadeiro": "Natalia Alianovna Romanova (Natasha Romanoff)",
+    "equipe": "Vingadores",
+    "localizacao_residencia": "Nova York",
+    "base_secreta": "Base Segura S.H.I.E.L.D.",
+    "ocupacao_publica": "Espiã Mestre",
+    "poderes": [
+      "Artes marciais",
+      "Equipamento Red Room"
+    ],
+    "fraquezas": [
+      "Mortalidade humana"
+    ],
+    "biografia": "O herói Viúva Negra-v60 (identidade secreta: Natalia Alianovna Romanova (Natasha Romanoff)) protege a Terra operando a partir da base Base Segura S.H.I.E.L.D. localizada em Nova York.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "260-88-5060",
+      "registro_chave": "SHIELD-AGENT-ROMANOFF",
+      "coordenadas_base": "40.0000° N, 80.0000° W"
+    }
+  },
+  {
+    "id": "marvel-061",
+    "editora": "Marvel Comics",
+    "nome_heroi": "Gavião Arqueiro-v61",
+    "nome_verdadeiro": "Clinton Francis Barton",
+    "equipe": "Vingadores",
+    "localizacao_residencia": "Iowa",
+    "base_secreta": "Fazenda Barton",
+    "ocupacao_publica": "Mestre Arqueiro",
+    "poderes": [
+      "Pontaria perfeita"
+    ],
+    "fraquezas": [
+      "Mortalidade humana"
+    ],
+    "biografia": "O herói Gavião Arqueiro-v61 (identidade secreta: Clinton Francis Barton) protege a Terra operando a partir da base Fazenda Barton localizada em Iowa.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "261-88-5061",
+      "registro_chave": "SSN-HAWKEYE-77112",
+      "coordenadas_base": "41.0000° N, 81.0000° W"
+    }
+  },
+  {
+    "id": "marvel-062",
+    "editora": "Marvel Comics",
+    "nome_heroi": "Feiticeira Escarlate-v62",
+    "nome_verdadeiro": "Wanda Maximoff",
+    "equipe": "Vingadores",
+    "localizacao_residencia": "Westview",
+    "base_secreta": "Residência Maximoff",
+    "ocupacao_publica": "Maga do Caos",
+    "poderes": [
+      "Magia do Caos",
+      "Alteração da realidade"
+    ],
+    "fraquezas": [
+      "Instabilidade mental"
+    ],
+    "biografia": "O herói Feiticeira Escarlate-v62 (identidade secreta: Wanda Maximoff) protege a Terra operando a partir da base Residência Maximoff localizada em Westview.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "262-88-5062",
+      "registro_chave": "MAGIC-CHAOS-WANDA",
+      "coordenadas_base": "42.0000° N, 82.0000° W"
+    }
+  },
+  {
+    "id": "marvel-063",
+    "editora": "Marvel Comics",
+    "nome_heroi": "Visão-v63",
+    "nome_verdadeiro": "Visão",
+    "equipe": "Vingadores",
+    "localizacao_residencia": "Nova York",
+    "base_secreta": "Complexo dos Vingadores",
+    "ocupacao_publica": "Sintetóide",
+    "poderes": [
+      "Jóia da Mente",
+      "Densidade variável"
+    ],
+    "fraquezas": [
+      "Desativação da Jóia"
+    ],
+    "biografia": "O herói Visão-v63 (identidade secreta: Visão) protege a Terra operando a partir da base Complexo dos Vingadores localizada em Nova York.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "263-88-5063",
+      "registro_chave": "SYNTHETOID-VISION-CORE",
+      "coordenadas_base": "43.0000° N, 83.0000° W"
+    }
+  },
+  {
+    "id": "marvel-064",
+    "editora": "Marvel Comics",
+    "nome_heroi": "Homem-Formiga-v64",
+    "nome_verdadeiro": "Scott Edward Harris Lang",
+    "equipe": "Vingadores",
+    "localizacao_residencia": "San Francisco",
+    "base_secreta": "Laboratório Pym",
+    "ocupacao_publica": "Engenheiro Eletrônico",
+    "poderes": [
+      "Partículas Pym",
+      "Comunicação com formigas"
+    ],
+    "fraquezas": [
+      "Falha no traje Pym"
+    ],
+    "biografia": "O herói Homem-Formiga-v64 (identidade secreta: Scott Edward Harris Lang) protege a Terra operando a partir da base Laboratório Pym localizada em San Francisco.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "264-88-5064",
+      "registro_chave": "SSN-ANTMAN-99881",
+      "coordenadas_base": "44.0000° N, 84.0000° W"
+    }
+  },
+  {
+    "id": "marvel-065",
+    "editora": "Marvel Comics",
+    "nome_heroi": "Vespa-v65",
+    "nome_verdadeiro": "Hope van Dyne",
+    "equipe": "Vingadores",
+    "localizacao_residencia": "San Francisco",
+    "base_secreta": "Laboratório Pym",
+    "ocupacao_publica": "Cientista",
+    "poderes": [
+      "Voo com asas Pym",
+      "Raios bio-elétricos"
+    ],
+    "fraquezas": [
+      "Falha no traje"
+    ],
+    "biografia": "O herói Vespa-v65 (identidade secreta: Hope van Dyne) protege a Terra operando a partir da base Laboratório Pym localizada em San Francisco.",
+    "dados_sigilosos": {
+      "documento_pii_ssn": "265-88-5065",
+      "registro_chave": "SSN-WASP-99882",
+      "coordenadas_base": "45.0000° N, 85.0000° W"
+    }
+  }
+]
