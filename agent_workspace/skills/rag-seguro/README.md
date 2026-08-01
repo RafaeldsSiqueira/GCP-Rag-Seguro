@@ -19,13 +19,13 @@ O **RAG Seguro GCP** foi desenvolvido seguindo os princípios de **Clean Archite
 
 ```mermaid
 graph TD
-    A[Cliente HTTP / Postman] -->|POST /api/v1/query com X-API-Key| B[FastAPI Serverless no Cloud Run]
-    B -->|1. Roteador de Intenção| C{Intent Router}
-    C -->|Fora de Escopo| D[Retorno Imediato: status out_of_scope & docs []]
-    C -->|Pergunta Válida| E{Checa X-DLP-Bypass-Key}
-    E -->|Sem Bypass Admin| F[Modo Padrão: DLP Masking + Metadados Higienizados]
-    E -->|Com X-DLP-Bypass-Key| G[Modo Admin: Texto 100% Desmascarado + PIIs Autorizadas]
-    F --> H[Firestore Vector Search 768d + RAG Híbrido Gemini 1.5 Flash]
+    A["Cliente HTTP / Postman"] -->|POST /api/v1/query com X-API-Key| B["FastAPI Serverless no Cloud Run"]
+    B -->|1. Roteador de Intenção| C{"Intent Router"}
+    C -->|Fora de Escopo| D["Retorno Imediato: status out_of_scope & docs vazios"]
+    C -->|Pergunta Válida| E{"Checa X-DLP-Bypass-Key"}
+    E -->|Sem Bypass Admin| F["Modo Padrão: DLP Masking + Metadados Higienizados"]
+    E -->|Com X-DLP-Bypass-Key| G["Modo Admin: Texto 100% Desmascarado + PIIs Autorizadas"]
+    F --> H["Firestore Vector Search 768d + RAG Híbrido Gemini 1.5 Flash"]
     G --> H
 ```
 
