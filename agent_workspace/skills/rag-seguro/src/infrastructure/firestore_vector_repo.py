@@ -42,29 +42,38 @@ class FirestoreVectorRepository(IVectorRepository):
         if self.db:
             collection = self.db.collection("fichas_sanitizadas")
             
-            # 1. Busca por correspondência semântica de palavras-chave tratadas no Firestore
+            # 1. Busca por correspondência semântica de palavras-chave tratadas no Firestore com scoring de relevância
             if query_texto:
                 palavras_chave = [p for p in re.findall(r'\b\w+\b', query_texto.lower()) if len(p) > 2 and p not in STOP_WORDS]
                 if palavras_chave:
                     try:
                         query_snapshots = collection.limit(130).stream()
+                        candidatos_com_score = []
                         for snap in query_snapshots:
                             data = snap.to_dict()
                             titulo = data.get("metadata", {}).get("titulo", "").lower()
                             doc_id = data.get("documento_id", "").lower()
                             conteudo = data.get("conteudo_sanitizado", "").lower()
                             
-                            if any(termo in titulo or termo in doc_id or termo in conteudo for termo in palavras_chave):
+                            # Calcula a pontuação de sobreposição de termos
+                            score = sum(1 for termo in palavras_chave if termo in titulo or termo in doc_id or termo in conteudo)
+                            # Bônus para correspondência no título do herói
+                            if any(termo in titulo or termo in doc_id for termo in palavras_chave):
+                                score += 2
+
+                            if score > 0:
                                 doc_obj = VetorDocumento(
                                     documento_id=data["documento_id"],
                                     conteudo_sanitizado=data["conteudo_sanitizado"],
                                     embedding=data["embedding"],
                                     metadata=data.get("metadata", {})
                                 )
-                                if not any(d.documento_id == doc_obj.documento_id for d in docs):
-                                    docs.append(doc_obj)
-                                    if len(docs) >= top_k:
-                                        return docs
+                                candidatos_com_score.append((score, doc_obj))
+                        
+                        if candidatos_com_score:
+                            candidatos_com_score.sort(key=lambda x: x[0], reverse=True)
+                            docs = [doc for _, doc in candidatos_com_score[:top_k]]
+                            return docs
                     except Exception as e:
                         logger.warning(f"Erro no streaming de palavras-chave no Firestore: {e}")
 

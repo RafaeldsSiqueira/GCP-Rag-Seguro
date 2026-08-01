@@ -148,8 +148,6 @@ Entre os principais benefícios:
 
 A aplicação permanece desligada quando não há requisições, eliminando custos de infraestrutura ociosa.
 
-📸 **PRINT 1:** Console do Cloud Run mostrando o serviço implantado, a tag FinOps `cost_center = "cc-ia-genai-042"` e o Scale-to-Zero (`min-instances=0`).
-
 ---
 
 # 🔐 Gerenciamento seguro de credenciais
@@ -170,8 +168,6 @@ Essa abordagem oferece:
 * Controle de acesso via IAM;
 * Rotação simplificada das chaves;
 * Auditoria completa de acesso.
-
-📸 **PRINT 2:** Console do Secret Manager exibindo os segredos do projeto.
 
 ---
 
@@ -208,8 +204,6 @@ X-DLP-Bypass-Key: rag-admin-bypass-2026
 ```
 
 Nesse modo, a resposta retorna 100% desmascarada para fins de auditoria, junto com a lista de PIIs brutas autorizadas no metadado.
-
-📸 **PRINT 3:** Comparação entre a resposta do modo padrão (sanitizada) e do modo administrador (desmascarada).
 
 ---
 
@@ -276,8 +270,6 @@ A suíte automatizada valida:
 
 Resultado: **13 de 13 testes aprovados (100%).**
 
-📸 **PRINT 4:** Execução do `pytest` no terminal com 13 testes 100% aprovados.
-
 ---
 
 # 🏢 Evolução para ambientes Enterprise
@@ -336,8 +328,6 @@ Todos os recursos provisionados via Terraform recebem a tag:
 cost_center = "cc-ia-genai-042"
 ```
 permitindo rastreamento detalhado dos custos no Google Cloud Billing.
-
-📸 **PRINT 5:** Resposta do terminal cURL ou Postman demonstrando o bloqueio de escopo da pergunta *"Quem é o presidente do Brasil ?"*.
 
 ---
 
