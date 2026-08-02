@@ -1,4 +1,4 @@
-# 🛡️ Arquitetura RAG Segura na Google Cloud: combinando IA Generativa (Gemini 1.5), Cloud DLP, Secret Manager, Terraform e FinOps com custo zero em produção
+# 🛡️ RAG Seguro na GCP: Como Construir IA Generativa Corporativa sem Vazamento de Dados e com Custo Controlado
 
 A Inteligência Artificial Generativa vem transformando a forma como empresas acessam conhecimento interno. Entretanto, colocar uma solução de **Retrieval-Augmented Generation (RAG)** em produção envolve desafios que vão muito além da escolha do modelo de linguagem.
 
