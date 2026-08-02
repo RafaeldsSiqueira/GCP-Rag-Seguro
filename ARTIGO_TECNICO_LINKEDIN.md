@@ -4,7 +4,9 @@ A Inteligência Artificial Generativa vem transformando a forma como empresas ac
 
 Como proteger dados sensíveis? Como atender aos requisitos da LGPD? Como evitar custos desnecessários? E como garantir que toda a infraestrutura seja reproduzível e escalável?
 
-Neste artigo apresento a arquitetura do projeto **RAG Seguro GCP**, desenvolvido para responder a esses desafios utilizando serviços gerenciados da Google Cloud Platform.
+Para responder a esses desafios de forma prática e lúdica, desenvolvi o projeto **RAG Seguro GCP** utilizando uma base simulada com **130 fichas sigilosas do catálogo de heróis (65 DC Comics + 65 Marvel Comics)**. Cada ficha contém dados sensíveis simulados — como identidades civis secretas, localizações de bases sigilosas, coordenadas GPS e registros de documentos (SSNs/CPFs) — permitindo realizar testes de estresse de segurança, mascaramento com Cloud DLP e auditoria privilegiada de forma visual, envolvente e segura.
+
+Neste artigo apresento a arquitetura completa do projeto utilizando serviços gerenciados da Google Cloud Platform.
 
 ---
 
