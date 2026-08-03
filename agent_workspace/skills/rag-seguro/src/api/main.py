@@ -20,10 +20,19 @@ app = FastAPI(
     version="1.0.0"
 )
 
-# Chaves de API de seguranca (Padrao e Bypass Privilegiado para Administradores)
-EXPECTED_API_KEY = os.getenv("APP_API_KEY", "rag-secret-key-2026")
-EXPECTED_BYPASS_KEY = os.getenv("APP_BYPASS_KEY", "rag-admin-bypass-2026")
-PROJECT_ID = os.getenv("GCP_PROJECT_ID", "rag-seguro-gcp")
+# Segurança: NÃO deixar defaults de chaves no código.
+# APP_API_KEY e APP_BYPASS_KEY devem ser provisionadas via Secret Manager ou variáveis de ambiente no runtime.
+# Se for necessário testar a API manualmente, gere uma nova chave temporária e injete-a via Secret Manager ou export APP_API_KEY="sua_chave_temp".
+EXPECTED_API_KEY = os.environ.get("APP_API_KEY")
+EXPECTED_BYPASS_KEY = os.environ.get("APP_BYPASS_KEY")
+
+# Falha rápida na inicialização para evitar rodar com um valor padrão inseguro
+if not EXPECTED_API_KEY:
+    raise RuntimeError(
+        "APP_API_KEY não definido. Configure via Secret Manager (recomendado) ou variável de ambiente antes de iniciar o serviço."
+    )
+
+PROJECT_ID = os.environ.get("GCP_PROJECT_ID", "rag-seguro-gcp")
 
 api_key_header = APIKeyHeader(name="X-API-Key", auto_error=False)
 
@@ -56,7 +65,7 @@ except Exception as e:
 gemini_model = None
 try:
     import google.generativeai as genai
-    gemini_api_key = os.getenv("GEMINI_API_KEY")
+    gemini_api_key = os.environ.get("GEMINI_API_KEY")
     if gemini_api_key:
         genai.configure(api_key=gemini_api_key)
         for model_candidate in ["gemini-1.5-flash-latest", "gemini-1.5-flash", "gemini-2.0-flash", "gemini-1.5-pro"]:
