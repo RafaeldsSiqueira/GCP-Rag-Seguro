@@ -3,11 +3,17 @@ import json
 import time
 import requests
 
+# Segurança: NÃO deixar a chave hardcoded no repositório.
+# Para testes locais ou integração manual, gere uma chave temporária e exporte via env var:
+# export APP_API_KEY="sua_chave_temporaria"
+
 API_URL = "https://api-rag-seguro-3jjpib7fzq-uc.a.run.app/api/v1/ingest"
+API_KEY = os.environ.get("APP_API_KEY", "local-test-key")  # 'local-test-key' apenas para dev local; não commitar chaves reais
 HEADERS = {
     "Content-Type": "application/json",
-    "X-API-Key": "rag-secret-key-2026"
+    "X-API-Key": API_KEY
 }
+
 
 def ingestar_todos_herois():
     dataset_path = os.path.join(os.path.dirname(__file__), "../.sandbox/hero_dataset_mock.json")
@@ -50,6 +56,7 @@ def ingestar_todos_herois():
     print(f"   • Sucesso: {sucesso}/{len(herois)}")
     print(f"   • Erros: {erros}")
     print(f"   • Tempo Total: {tempo:.2f}s")
+
 
 if __name__ == "__main__":
     ingestar_todos_herois()

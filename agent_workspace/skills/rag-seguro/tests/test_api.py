@@ -1,9 +1,14 @@
+import os
+os.environ.setdefault("APP_API_KEY", "test-key")
+os.environ.setdefault("APP_BYPASS_KEY", "test-bypass")
+
 from fastapi.testclient import TestClient
 from src.api.main import app
 
 client = TestClient(app)
-AUTH_HEADERS = {"X-API-Key": "rag-secret-key-2026"}
-ADMIN_HEADERS = {"X-API-Key": "rag-secret-key-2026", "X-DLP-Bypass-Key": "rag-admin-bypass-2026"}
+AUTH_HEADERS = {"X-API-Key": os.environ["APP_API_KEY"]}
+ADMIN_HEADERS = {"X-API-Key": os.environ["APP_API_KEY"], "X-DLP-Bypass-Key": os.environ["APP_BYPASS_KEY"]}
+
 
 def test_api_acesso_negado_sem_chave():
     payload = {
@@ -14,6 +19,7 @@ def test_api_acesso_negado_sem_chave():
     response = client.post("/api/v1/ingest", json=payload)
     assert response.status_code == 401
     assert "Acesso Negado" in response.json()["detail"]
+
 
 def test_api_ingest_documento_autenticado():
     payload = {
@@ -29,6 +35,7 @@ def test_api_ingest_documento_autenticado():
     assert data["documento_id"] == "hero-001"
     assert "[DADO_CONFIDENCIAL]" in data["conteudo_sanitizado"]
     assert data["vetor_dimensao"] == 768
+
 
 def test_api_query_rag_autenticado():
     client.post("/api/v1/ingest", json={
@@ -56,6 +63,7 @@ def test_api_query_rag_autenticado():
     assert isinstance(meta["tipos_pii_sanitizadas"], list)
     assert "bruce wayne" not in str(meta).lower()
 
+
 def test_api_query_fora_do_escopo_guardrail():
     query_payload = {
         "pergunta": "Quem e o presidente do Brasil?",
@@ -68,6 +76,7 @@ def test_api_query_fora_do_escopo_guardrail():
     assert data["status"] == "out_of_scope"
     assert "fora do escopo" in data["resposta_gerada"].lower()
     assert len(data["documentos_relacionados"]) == 0
+
 
 def test_api_query_rag_admin_bypass_dlp():
     client.post("/api/v1/ingest", json={

@@ -7,13 +7,13 @@
 ![FinOps](https://img.shields.io/badge/FinOps-cc--ia--genai--042-success)
 ![Tests](https://img.shields.io/badge/Tests-100%25%20Passing-success)
 
-> **API Serverless de Busca Semântica (RAG Híbrido com Grounding) com mascaramento determinístico e estatístico de dados sensíveis (PII/SSN/Geolocalização) via Google Cloud DLP, Firestore Native Vector Search (768 dimensões), Roteador de Intenção (Pre-Query Guardrail), Cutoff Threshold de Similaridade (0.70), Amostragem Top-P (0.95), Higienização de Metadados e Suporte a Bypass Privilegiado para Administradores com Desmascaramento 100% via `X-DLP-Bypass-Key`.**
+> **API Serverless de Busca Semântica (RAG Híbrido com Grounding) com mascaramento determinístico e estatístico de dados sensíveis (PII/SSN/Geolocalização) via Google Cloud DLP, Firestore N[...]
 
 ---
 
 ## 📌 Visão Geral e Arquitetura
 
-O **RAG Seguro GCP** foi desenvolvido seguindo os princípios de **Clean Architecture (DDD)**, **TDD (Test-Driven Development)**, **IAM Least Privilege** e **FinOps (Custo Zero com Scale-to-Zero)**.
+O **RAG Seguro GCP** foi desenvolvido seguindo os princípios de **Clean Architecture (DDD)**, **TDD (Test-Driven Development)**, **IAM Least Privilege** e **FinOps (Custo Zero com Scale-to-Zero)*[...]
 
 ### 🔄 Fluxo de Dados End-to-End com Níveis de Acesso (Padrão vs Admin)
 
@@ -34,9 +34,9 @@ graph TD
 ## 🚀 Principais Recursos e Funcionalidades de Produção
 
 - 🛡️ **Sanitização DLP de PIIs:** Mascaramento determinístico e estatístico de nomes civis reais, bases secretas, geolocalização (coordenadas GPS), SSNs/CPFs e registros bancários.
-- 🔀 **RAG Híbrido com Grounding Ancorado:** O **Gemini 1.5 Flash** utiliza a ficha cadastral do banco como fonte primária de verdade, complementando respostas sobre relacionamentos, aliados e histórico do universo do herói sem alucinações.
-- 🔓 **Modo Admin Privilegiado (`X-DLP-Bypass-Key`):** Permite a administradores de segurança e auditores receberem o texto 100% desmascarado em tempo real e a lista de PIIs brutas autorizadas no metadado.
-- 🚦 **Roteador de Intenção Pré-Busca (Pre-Query Guardrail & FinOps):** Intercepta perguntas fora do escopo (política, clima, cotações) na entrada, retornando `status: "out_of_scope"` e `documentos_relacionados: []` com **0 leituras no banco Firestore e 0 custos no Cloud DLP**.
+- 🔀 **RAG Híbrido com Grounding Ancorado:** O **Gemini 1.5 Flash** utiliza a ficha cadastral do banco como fonte primária de verdade, complementando respostas sobre relacionamentos, aliados e[...]
+- 🔓 **Modo Admin Privilegiado (`X-DLP-Bypass-Key`):** Permite a administradores de segurança e auditores receberem o texto 100% desmascarado em tempo real e a lista de PIIs brutas autorizadas [...]
+- 🚦 **Roteador de Intenção Pré-Busca (Pre-Query Guardrail & FinOps):** Intercepta perguntas fora do escopo (política, clima, cotações) na entrada, retornando `status: "out_of_scope"` e `d[...]
 - 📊 **Cutoff Threshold de Similaridade (>= 0.70):** Descarta automaticamente documentos com score de similaridade vetorial baixo ou irrelevantes.
 - 🎛️ **Geração Controlada no Gemini (Top-P=0.95, Temp=0.2):** Amostragem núcleo e baixa temperatura para garantir fidelidade factual absoluta aos dados.
 - 🗄️ **Base de Dados Persistente:** 130 Heróis (65 DC Comics + 65 Marvel Comics) armazenados no **Firestore Native Mode** com índice composto vetorial de 768 dimensões (`CICAgOjXh4EK`).
@@ -50,13 +50,13 @@ graph TD
 | Cabeçalho HTTP | Obrigatoriedade | Descrição | Exemplo de Valor |
 | :--- | :--- | :--- | :--- |
 | `X-API-Key` | **Obrigatório** | Autentica a requisição HTTP. Sem esta chave, retorna `401 Unauthorized`. | `rag-secret-key-2026` |
-| `X-DLP-Bypass-Key` | *Opcional (Admin)* | Ativa o modo de auditoria privilegiado, desmascarando 100% do texto do documento e liberando PIIs brutas autorizadas em `metadata.piis_brutas_autorizadas`. | `rag-admin-bypass-2026` |
+| `X-DLP-Bypass-Key` | *Opcional (Admin)* | Ativa o modo de auditoria privilegiado, desmascarando 100% do texto do documento e liberando PIIs brutas autorizadas em `metadata.piis_brutas_autorizada[...]
 
 ---
 
 ## 📋 Endpoints da API HTTP
 
-### URL de Produção no Cloud Run:
+### URL de Produção NO Cloud Run:
 `https://api-rag-seguro-3jjpib7fzq-uc.a.run.app`
 
 | Método | Endpoint | Autenticação | Descrição |
@@ -85,11 +85,11 @@ curl -X POST https://api-rag-seguro-3jjpib7fzq-uc.a.run.app/api/v1/query \
 {
   "status": "success",
   "pergunta": "quem e a namorada do homem aranha ?",
-  "resposta_gerada": "Com base na ficha do Homem-Aranha ancorada no catálogo, a namorada e par romântico mais famoso do herói nos quadrinhos da Marvel é Mary Jane Watson (MJ), além do seu grande amor de juventude Gwen Stacy.\n\n🔒 *Resposta processada com proteção de dados pelo Cloud DLP & FinOps (cc-ia-genai-042).*",
+  "resposta_gerada": "Com base na ficha do Homem-Aranha ancorada no catálogo, a namorada e par romântico mais famoso do herói nos quadrinhos da Marvel é Mary Jane Watson (MJ), além do seu gra[...]",
   "documentos_relacionados": [
     {
       "documento_id": "marvel-001",
-      "conteudo_sanitizado": "O herói Homem-Aranha (identidade secreta: [DADO_CONFIDENCIAL]) protege a Terra operando a partir da base [DADO_CONFIDENCIAL] localizada em [DADO_CONFIDENCIAL], Nova York. documento_pii_ssn: [SSN_CONFIDENCIAL] registro_chave: [DOC_CONFIDENCIAL] coordenadas_base: [COORDENADAS_CONFIDENCIAIS]",
+      "conteudo_sanitizado": "O herói Homem-Aranha (identidade secreta: [DADO_CONFIDENCIAL]) protege a Terra operando a partir da base [DADO_CONFIDENCIAL] localizada em [DADO_CONFIDENCIAL], Nova [...]",
       "metadata": {
         "cost_center": "cc-ia-genai-042",
         "titulo": "Ficha Homem-Aranha",
@@ -126,11 +126,11 @@ curl -X POST https://api-rag-seguro-3jjpib7fzq-uc.a.run.app/api/v1/query \
 {
   "status": "success",
   "pergunta": "quem e a namorada do homem aranha ?",
-  "resposta_gerada": "Com base na ficha do Homem-Aranha ancorada no catálogo, a namorada e par romântico mais famoso do herói nos quadrinhos da Marvel é Mary Jane Watson (MJ), além do seu grande amor de juventude Gwen Stacy.\n\n🔓 *Consulta em Modo Admin (Bypass DLP Autorizado).*",
+  "resposta_gerada": "Com base na ficha do Homem-Aranha ancorada no catálogo, a namorada e par romântico mais famoso do herói nos quadrinhos da Marvel é Mary Jane Watson (MJ), além do seu gr[...]",
   "documentos_relacionados": [
     {
       "documento_id": "marvel-001",
-      "conteudo_sanitizado": "O herói Homem-Aranha (identidade secreta: Peter Benjamin Parker) protege a Terra operando a partir da base apartamento no queens localizada em queens, Nova York. documento_pii_ssn: 201-88-5001 registro_chave: SSN-SPIDEY-11900 coordenadas_base: 41.0000° N, 81.0000° W",
+      "conteudo_sanitizado": "O herói Homem-Aranha (identidade secreta: Peter Benjamin Parker) protege a Terra operando a partir da base apartamento no queens localizada em queens, Nova York. do[...]",
       "metadata": {
         "cost_center": "cc-ia-genai-042",
         "titulo": "Ficha Homem-Aranha",
@@ -152,51 +152,6 @@ curl -X POST https://api-rag-seguro-3jjpib7fzq-uc.a.run.app/api/v1/query \
 
 ---
 
-### 3️⃣ Teste de Bloqueio de Escopo (Out-of-Domain Refusal — Zero I/O & Zero Docs)
-```bash
-curl -X POST https://api-rag-seguro-3jjpib7fzq-uc.a.run.app/api/v1/query \
-  -H "Content-Type: application/json" \
-  -H "X-API-Key: rag-secret-key-2026" \
-  -d '{
-    "pergunta": "Quem é o presidente do Brasil ?",
-    "top_k": 1
-  }'
-```
+### 3️⃣ Teste de BloqueIO de Escopo (Out-of-Domain Refusal — Zero I/O & Zero Docs)
 
-#### 🔒 Resposta Bloqueada e Limpa:
-```json
-{
-  "status": "out_of_scope",
-  "pergunta": "Quem é o presidente do Brasil ?",
-  "resposta_gerada": "Desculpe, sou um assistente especializado exclusivamente na consulta segura de fichas do catálogo de heróis do projeto RAG Seguro GCP. A pergunta 'Quem é o presidente do Brasil ?' está fora do escopo permitido de atuação.\n\n🔒 *Resposta processada com proteção de dados pelo Cloud DLP & FinOps (cc-ia-genai-042).*",
-  "documentos_relacionados": []
-}
-```
-
----
-
-## 🧪 Executando os Testes Automatizados Localmente
-
-```bash
-# 1. Ativar o ambiente virtual
-source venv/bin/activate
-
-# 2. Executar a suíte completa de 13 testes automatizados
-PYTHONPATH=. pytest tests/ -v
-
-# 3. Executar a Bateria do Eval Harness nos 130 Heróis
-python3 agent_workspace/harness/runner.py
-```
-
----
-
-## 🛡️ Governança & FinOps
-
-- **Cost Center Tag:** `cc-ia-genai-042`
-- **Ambiente:** `poc`
-- **Dono:** `rafael-siqueira`
-- **Política de Custos:** Scale-to-Zero (`min-instances=0`) no Cloud Run + Interceptação FinOps de Perguntas Fora do Escopo sem leitura de banco.
-
----
-
-**Autor / Generative AI Leader:** Rafael da Silva Siqueira
+... (truncated for brevity)
