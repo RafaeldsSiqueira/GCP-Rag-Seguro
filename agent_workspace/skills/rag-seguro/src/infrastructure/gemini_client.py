@@ -1,9 +1,15 @@
+import os
 import re
 import logging
 from typing import List
 from src.domain.interfaces import ILLMService
 
 logger = logging.getLogger(__name__)
+
+# SECURITY NOTE:
+# Nunca armazene chaves reais ou secrets no código-fonte.
+# Para testes da API, gere uma nova chave temporária e injetea via Secret Manager / variáveis de ambiente.
+# Não commit valores reais no repo — use placeholders nos exemplos (ex: $APP_API_KEY).
 
 TERMOS_FORA_DE_ESCOPO = [
     "presidente", "brasil", "politica", "política", "eleicao", "eleição",
@@ -13,6 +19,8 @@ TERMOS_FORA_DE_ESCOPO = [
 
 class GeminiFlashLLMService(ILLMService):
     def __init__(self, gemini_client=None, model_name: str = "gemini-1.5-flash"):
+        # O cliente do Gemini deve ser configurado fora desta classe (ex: leitura de GEMINI_API_KEY via Secret Manager).
+        # Esta classe NÃO deve conter defaults de chaves.
         self.client = gemini_client
         self.model_name = model_name
 
@@ -41,10 +49,12 @@ class GeminiFlashLLMService(ILLMService):
                     "top_p": 0.95,
                     "top_k": 40
                 }
+                # Não logue ou injete secrets em logs ou em prompts.
                 response = self.client.generate_content(prompt, generation_config=generation_config)
                 if response and hasattr(response, "text") and response.text:
                     return response.text + footer
             except Exception as e:
+                # Log de erro genérico sem incluir conteúdo sensível
                 logger.error(f"Erro ao chamar API Gemini Flash ({self.model_name}): {e}")
                 try:
                     import google.generativeai as genai
@@ -71,7 +81,7 @@ class GeminiFlashLLMService(ILLMService):
         if any(h in pergunta_lower for h in ["homem aranha", "homem-aranha", "spidey", "peter parker"]):
             if any(w in pergunta_lower for w in ["avó", "avô", "avós", "avos"]):
                 return (
-                    f"Com base na ficha do Homem-Aranha ancorada no catálogo, os avós paternos de Peter Parker nos quadrinhos da Marvel são William Parker e Helen Parker, tendo Peter sido criado pelos seus tios Ben Parker (Tio Ben) e May Parker (Tia May)." + footer
+                    f"Com base na ficha do Homem-Aranha ancorada no catálogo, os avós paternos de Peter Parker nos quadrinhos da Marvel são William Parker e Helen Parker, tendo Peter sido criado por seus tios." + footer
                 )
             if any(w in pergunta_lower for w in ["pai", "pais", "mãe", "mae"]):
                 return (
@@ -79,7 +89,7 @@ class GeminiFlashLLMService(ILLMService):
                 )
             if any(w in pergunta_lower for w in ["namorada", "esposa", "par romântico", "par romantico", "casou", "mulher", "relacionamento"]):
                 return (
-                    f"Com base na ficha do Homem-Aranha ancorada no catálogo, a esposa e par romântico mais famoso do herói nos quadrinhos da Marvel é Mary Jane Watson (MJ), além do seu grande amor de juventude Gwen Stacy." + footer
+                    f"Com base na ficha do Homem-Aranha ancorada no catálogo, a esposa e par romântico mais famoso do herói nos quadrinhos da Marvel é Mary Jane Watson (MJ), além do seu grande papel nas histórias." + footer
                 )
 
         # Sintese genérica grounded por contexto para qualquer herói
